@@ -14,6 +14,9 @@ struct CardView: View {
     @State private var fadeIn: Bool = false
     @State private var moveDownward: Bool = false
     @State private var moveUpward: Bool = false
+    @State private var showAlert: Bool = false
+    
+    var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
     var body: some View {
         ZStack{
             Image(card.imageName)
@@ -33,7 +36,9 @@ struct CardView: View {
             
             Button(action:{
                 print("按钮被用户点击")
+                self.hapticImpact.impactOccurred()
                 playSound(sound:"sound-transition",type:"mp3")
+                self.showAlert.toggle()
             }){
                 HStack {
                     Text(card.callToAction)
@@ -62,6 +67,9 @@ struct CardView: View {
                     self.moveDownward.toggle()
                     self.moveUpward.toggle()
                 }
+        }
+        .alert(isPresented: $showAlert){
+            Alert(title: Text(card.title),message: Text(card.message),dismissButton: .default(Text("OK")))
         }
         
         
