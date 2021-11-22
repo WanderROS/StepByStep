@@ -13,7 +13,8 @@
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
 		C190C844274BB61F00957C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C843274BB61F00957C69 /* Assets.xcassets */; };
 		C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C846274BB61F00957C69 /* Preview Assets.xcassets */; };
-		C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C848274BB61F00957C69 /* LaunchScreen.storyboard */; };
+		C190C86F274BDE9300957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C86E274BDE9300957C69 /* LaunchScreen.storyboard */; };
+		C190C871274BE05500957C69 /* unnamed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C190C870274BE05500957C69 /* unnamed.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +26,9 @@
 		C190C841274BB61E00957C69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C190C843274BB61F00957C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C190C846274BB61F00957C69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C190C849274BB61F00957C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C190C84B274BB61F00957C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C190C86E274BDE9300957C69 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C190C870274BE05500957C69 /* unnamed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpeg; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */,
 				16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,9 +86,10 @@
 				C190C83F274BB61E00957C69 /* SceneDelegate.swift */,
 				C190C841274BB61E00957C69 /* ContentView.swift */,
 				C190C843274BB61F00957C69 /* Assets.xcassets */,
-				C190C848274BB61F00957C69 /* LaunchScreen.storyboard */,
 				C190C84B274BB61F00957C69 /* Info.plist */,
+				C190C870274BE05500957C69 /* unnamed.jpeg */,
 				C190C845274BB61F00957C69 /* Preview Content */,
+				C190C86E274BDE9300957C69 /* LaunchScreen.storyboard */,
 			);
 			path = StepByStep;
 			sourceTree = "<group>";
@@ -159,7 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */,
+				C190C871274BE05500957C69 /* unnamed.jpeg in Resources */,
+				C190C86F274BDE9300957C69 /* LaunchScreen.storyboard in Resources */,
 				C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */,
 				C190C844274BB61F00957C69 /* Assets.xcassets in Resources */,
 			);
@@ -204,17 +207,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C190C848274BB61F00957C69 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C190C849274BB61F00957C69 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C190C84C274BB61F00957C69 /* Debug */ = {
