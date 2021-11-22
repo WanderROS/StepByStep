@@ -29,6 +29,7 @@ struct CardView: View {
             
             Button(action:{
                 print("按钮被用户点击")
+                playSound(sound:"sound-transition",type:"mp3")
             }){
                 HStack {
                     Text(card.callToAction)
