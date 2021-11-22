@@ -15,6 +15,7 @@
 		C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C846274BB61F00957C69 /* Preview Assets.xcassets */; };
 		C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C848274BB61F00957C69 /* LaunchScreen.storyboard */; };
 		C190C852274BBF8100957C69 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C851274BBF8100957C69 /* CardView.swift */; };
+		C190C855274BC7B300957C69 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C854274BC7B300957C69 /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C190C849274BB61F00957C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C190C84B274BB61F00957C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C190C851274BBF8100957C69 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C190C854274BC7B300957C69 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,8 @@
 		C190C83C274BB61E00957C69 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
+				C190C856274BCA4300957C69 /* View */,
+				C190C853274BC78D00957C69 /* Model */,
 				C190C83D274BB61E00957C69 /* AppDelegate.swift */,
 				C190C83F274BB61E00957C69 /* SceneDelegate.swift */,
 				C190C841274BB61E00957C69 /* ContentView.swift */,
@@ -89,7 +93,6 @@
 				C190C848274BB61F00957C69 /* LaunchScreen.storyboard */,
 				C190C84B274BB61F00957C69 /* Info.plist */,
 				C190C845274BB61F00957C69 /* Preview Content */,
-				C190C851274BBF8100957C69 /* CardView.swift */,
 			);
 			path = StepByStep;
 			sourceTree = "<group>";
@@ -100,6 +103,22 @@
 				C190C846274BB61F00957C69 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C190C853274BC78D00957C69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C190C854274BC7B300957C69 /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C190C856274BCA4300957C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C190C851274BBF8100957C69 /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +222,7 @@
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C190C852274BBF8100957C69 /* CardView.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
+				C190C855274BC7B300957C69 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
