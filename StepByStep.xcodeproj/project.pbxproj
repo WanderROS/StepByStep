@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,11 @@
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
 		C190C844274BB61F00957C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C843274BB61F00957C69 /* Assets.xcassets */; };
 		C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C846274BB61F00957C69 /* Preview Assets.xcassets */; };
-		C190C86F274BDE9300957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C86E274BDE9300957C69 /* LaunchScreen.storyboard */; };
 		C190C871274BE05500957C69 /* unnamed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C190C870274BE05500957C69 /* unnamed.jpeg */; };
+		C190C873274BE7A900957C69 /* AdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C872274BE7A900957C69 /* AdModel.swift */; };
+		C190C875274BE8A900957C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C874274BE8A900957C69 /* ViewController.swift */; };
+		C190C877274BEBFE00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */; };
+		C190C879274BEC9D00957C69 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C190C878274BEC9D00957C69 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +30,11 @@
 		C190C843274BB61F00957C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C190C846274BB61F00957C69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C190C84B274BB61F00957C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C190C86E274BDE9300957C69 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C190C870274BE05500957C69 /* unnamed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpeg; sourceTree = "<group>"; };
+		C190C872274BE7A900957C69 /* AdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdModel.swift; sourceTree = "<group>"; };
+		C190C874274BE8A900957C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C190C878274BEC9D00957C69 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +88,7 @@
 		C190C83C274BB61E00957C69 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
+				C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */,
 				C190C83D274BB61E00957C69 /* AppDelegate.swift */,
 				C190C83F274BB61E00957C69 /* SceneDelegate.swift */,
 				C190C841274BB61E00957C69 /* ContentView.swift */,
@@ -89,7 +96,9 @@
 				C190C84B274BB61F00957C69 /* Info.plist */,
 				C190C870274BE05500957C69 /* unnamed.jpeg */,
 				C190C845274BB61F00957C69 /* Preview Content */,
-				C190C86E274BDE9300957C69 /* LaunchScreen.storyboard */,
+				C190C872274BE7A900957C69 /* AdModel.swift */,
+				C190C874274BE8A900957C69 /* ViewController.swift */,
+				C190C878274BEC9D00957C69 /* data.json */,
 			);
 			path = StepByStep;
 			sourceTree = "<group>";
@@ -113,6 +122,7 @@
 				C190C836274BB61E00957C69 /* Sources */,
 				C190C837274BB61E00957C69 /* Frameworks */,
 				C190C838274BB61E00957C69 /* Resources */,
+				CC8B9A034E30953EB663981B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,8 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C190C871274BE05500957C69 /* unnamed.jpeg in Resources */,
-				C190C86F274BDE9300957C69 /* LaunchScreen.storyboard in Resources */,
+				C190C877274BEBFE00957C69 /* LaunchScreen.storyboard in Resources */,
 				C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */,
+				C190C879274BEC9D00957C69 /* data.json in Resources */,
 				C190C844274BB61F00957C69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +182,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		CC8B9A034E30953EB663981B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepByStep/Pods-StepByStep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepByStep/Pods-StepByStep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepByStep/Pods-StepByStep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D51C1844F201A19407EF6288 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C190C875274BE8A900957C69 /* ViewController.swift in Sources */,
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
+				C190C873274BE7A900957C69 /* AdModel.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

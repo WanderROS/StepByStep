@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 582f5ff1acdb12db4f59bfca5bb1dd1b9d8ff080
+PODS:
+  - ZLaunchAd (2.1.0)
+
+DEPENDENCIES:
+  - ZLaunchAd
+
+SPEC REPOS:
+  trunk:
+    - ZLaunchAd
+
+SPEC CHECKSUMS:
+  ZLaunchAd: 88fc6e02e80957aaa03a4aaeb733df68df5762d1
+
+PODFILE CHECKSUM: 4e11e2f8564d89c02ad8ac73f8fcc945b08e5709
 
 COCOAPODS: 1.11.2
