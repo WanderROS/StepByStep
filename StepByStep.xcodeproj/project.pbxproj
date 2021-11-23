@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B45ED14FB0433E7575D35DB5 /* Pods_StepByStep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */; };
+		C12CC7D0274D3543004AF02F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CC7CF274D3543004AF02F /* AppView.swift */; };
+		C12CC7D2274D3854004AF02F /* BeijingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CC7D1274D3854004AF02F /* BeijingView.swift */; };
 		C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83D274BB61E00957C69 /* AppDelegate.swift */; };
 		C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83F274BB61E00957C69 /* SceneDelegate.swift */; };
-		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
+		C190C842274BB61E00957C69 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* FoodView.swift */; };
 		C190C844274BB61F00957C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C843274BB61F00957C69 /* Assets.xcassets */; };
 		C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C846274BB61F00957C69 /* Preview Assets.xcassets */; };
 		C190C871274BE05500957C69 /* unnamed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C190C870274BE05500957C69 /* unnamed.jpeg */; };
@@ -23,10 +25,12 @@
 /* Begin PBXFileReference section */
 		16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.release.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.release.xcconfig"; sourceTree = "<group>"; };
 		43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepByStep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C190C83A274BB61E00957C69 /* StepByStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepByStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12CC7CF274D3543004AF02F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		C12CC7D1274D3854004AF02F /* BeijingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeijingView.swift; sourceTree = "<group>"; };
+		C190C83A274BB61E00957C69 /* ThisBeijing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThisBeijing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C190C83D274BB61E00957C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C190C83F274BB61E00957C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C190C841274BB61E00957C69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C190C841274BB61E00957C69 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		C190C843274BB61F00957C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C190C846274BB61F00957C69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C190C84B274BB61F00957C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +71,29 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C12CC7CC274D30AE004AF02F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C12CC7CF274D3543004AF02F /* AppView.swift */,
+				C12CC7D1274D3854004AF02F /* BeijingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12CC7CD274D30B8004AF02F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C12CC7CE274D30D0004AF02F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C190C831274BB61E00957C69 = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +107,7 @@
 		C190C83B274BB61E00957C69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C190C83A274BB61E00957C69 /* StepByStep.app */,
+				C190C83A274BB61E00957C69 /* ThisBeijing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,10 +115,13 @@
 		C190C83C274BB61E00957C69 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
+				C12CC7CE274D30D0004AF02F /* Model */,
+				C12CC7CD274D30B8004AF02F /* ViewModel */,
+				C12CC7CC274D30AE004AF02F /* View */,
 				C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */,
 				C190C83D274BB61E00957C69 /* AppDelegate.swift */,
 				C190C83F274BB61E00957C69 /* SceneDelegate.swift */,
-				C190C841274BB61E00957C69 /* ContentView.swift */,
+				C190C841274BB61E00957C69 /* FoodView.swift */,
 				C190C843274BB61F00957C69 /* Assets.xcassets */,
 				C190C84B274BB61F00957C69 /* Info.plist */,
 				C190C870274BE05500957C69 /* unnamed.jpeg */,
@@ -130,7 +160,7 @@
 			);
 			name = StepByStep;
 			productName = StepByStep;
-			productReference = C190C83A274BB61E00957C69 /* StepByStep.app */;
+			productReference = C190C83A274BB61E00957C69 /* ThisBeijing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -230,9 +260,11 @@
 			files = (
 				C190C875274BE8A900957C69 /* ViewController.swift in Sources */,
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
+				C12CC7D0274D3543004AF02F /* AppView.swift in Sources */,
+				C12CC7D2274D3854004AF02F /* BeijingView.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C190C873274BE7A900957C69 /* AdModel.swift in Sources */,
-				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
+				C190C842274BB61E00957C69 /* FoodView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.wanderros.StepByStep;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ThisBeijing;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,7 +421,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.wanderros.StepByStep;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ThisBeijing;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
