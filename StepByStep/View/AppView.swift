@@ -21,16 +21,17 @@ struct AppView: View {
                     Image(systemName: "pencil")
                     Text("小吃")
                 })
-            SettingsView()
-                .tabItem({
-                    Image(systemName: "gear")
-                    Text("设置")
-                })
             HutongView()
                 .tabItem({
                     Image(systemName: "pencil.circle.fill")
                     Text("胡同")
                 })
+            SettingsView()
+                .tabItem({
+                    Image(systemName: "gear")
+                    Text("设置")
+                })
+            
         }
         .accentColor(.primary)
         

@@ -32,6 +32,8 @@
 		C1CCABC2274E6D2A00730BE8 /* SnackBarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCABC1274E6D2A00730BE8 /* SnackBarRatingView.swift */; };
 		C1CCABC4274E6DBA00730BE8 /* SnackBarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCABC3274E6DBA00730BE8 /* SnackBarInfoView.swift */; };
 		C1CCABC6274E704C00730BE8 /* SnackBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCABC5274E704C00730BE8 /* SnackBarDetailView.swift */; };
+		C1CCABC8274E7F7600730BE8 /* Hutong.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCABC7274E7F7600730BE8 /* Hutong.swift */; };
+		C1CCABCA274E800900730BE8 /* HutongRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCABC9274E800900730BE8 /* HutongRankingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		C1CCABC1274E6D2A00730BE8 /* SnackBarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarRatingView.swift; sourceTree = "<group>"; };
 		C1CCABC3274E6DBA00730BE8 /* SnackBarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarInfoView.swift; sourceTree = "<group>"; };
 		C1CCABC5274E704C00730BE8 /* SnackBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarDetailView.swift; sourceTree = "<group>"; };
+		C1CCABC7274E7F7600730BE8 /* Hutong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hutong.swift; sourceTree = "<group>"; };
+		C1CCABC9274E800900730BE8 /* HutongRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongRankingView.swift; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,7 @@
 				C1CCABC1274E6D2A00730BE8 /* SnackBarRatingView.swift */,
 				C1CCABC3274E6DBA00730BE8 /* SnackBarInfoView.swift */,
 				C1CCABC5274E704C00730BE8 /* SnackBarDetailView.swift */,
+				C1CCABC9274E800900730BE8 /* HutongRankingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				C1A943C7274E28BD005D3E61 /* Header.swift */,
 				C1CCABBB274E67E900730BE8 /* Food.swift */,
 				C1CCABBD274E69B800730BE8 /* SnackBar.swift */,
+				C1CCABC7274E7F7600730BE8 /* Hutong.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -306,7 +312,9 @@
 				C1CCABBE274E69B800730BE8 /* SnackBar.swift in Sources */,
 				C1CCABBC274E67E900730BE8 /* Food.swift in Sources */,
 				C1A943C8274E28BD005D3E61 /* Header.swift in Sources */,
+				C1CCABC8274E7F7600730BE8 /* Hutong.swift in Sources */,
 				C1A943C3274E226E005D3E61 /* HeaderView.swift in Sources */,
+				C1CCABCA274E800900730BE8 /* HutongRankingView.swift in Sources */,
 				C1CCABC0274E6A2E00730BE8 /* SnackBarCardView.swift in Sources */,
 				C12CC7D2274D3854004AF02F /* BeijingView.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,

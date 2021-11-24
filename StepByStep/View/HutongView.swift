@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct HutongView: View {
+    let hutongs = hutongData
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal,showsIndicators: false){
+            VStack{
+                HStack(alignment: .top, spacing: 25) {
+                    ForEach(hutongs){
+                        item in
+                        HutongRankingView(hutong: item)
+                            .frame( alignment: .center)
+                    }
+                }
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
