@@ -17,8 +17,10 @@ struct SettingsView: View {
                 Image("Huba")
                     .resizable()
                     .scaledToFit()
+                    .clipShape(Circle())
                     .padding(.top)
                     .frame(width: 140, height: 140, alignment: .center)
+                    
                     .shadow(color: Color("ColorBlackTransparentDark"), radius: 8, x: 0, y: 4)
                 Text("这里是北京")
                     .font(.title)
