@@ -20,6 +20,7 @@
 		C190C875274BE8A900957C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C874274BE8A900957C69 /* ViewController.swift */; };
 		C190C877274BEBFE00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */; };
 		C190C879274BEC9D00957C69 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C190C878274BEC9D00957C69 /* data.json */; };
+		C1A943BF274DF7CC005D3E61 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A943BE274DF7CC005D3E61 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		C190C874274BE8A900957C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C190C878274BEC9D00957C69 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		C1A943BE274DF7CC005D3E61 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 			children = (
 				C12CC7CF274D3543004AF02F /* AppView.swift */,
 				C12CC7D1274D3854004AF02F /* BeijingView.swift */,
+				C1A943BE274DF7CC005D3E61 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C190C875274BE8A900957C69 /* ViewController.swift in Sources */,
+				C1A943BF274DF7CC005D3E61 /* SettingsView.swift in Sources */,
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
 				C12CC7D0274D3543004AF02F /* AppView.swift in Sources */,
 				C12CC7D2274D3854004AF02F /* BeijingView.swift in Sources */,
