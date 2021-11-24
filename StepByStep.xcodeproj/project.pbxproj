@@ -21,6 +21,10 @@
 		C190C877274BEBFE00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */; };
 		C190C879274BEC9D00957C69 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C190C878274BEC9D00957C69 /* data.json */; };
 		C1A943BF274DF7CC005D3E61 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A943BE274DF7CC005D3E61 /* SettingsView.swift */; };
+		C1A943C1274E1D9E005D3E61 /* HutongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A943C0274E1D9D005D3E61 /* HutongView.swift */; };
+		C1A943C3274E226E005D3E61 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A943C2274E226E005D3E61 /* HeaderView.swift */; };
+		C1A943C8274E28BD005D3E61 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A943C7274E28BD005D3E61 /* Header.swift */; };
+		C1A943CA274E3777005D3E61 /* CookingWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A943C9274E3777005D3E61 /* CookingWayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C190C878274BEC9D00957C69 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		C1A943BE274DF7CC005D3E61 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C1A943C0274E1D9D005D3E61 /* HutongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongView.swift; sourceTree = "<group>"; };
+		C1A943C2274E226E005D3E61 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C1A943C7274E28BD005D3E61 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C1A943C9274E3777005D3E61 /* CookingWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingWayView.swift; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +87,9 @@
 				C12CC7CF274D3543004AF02F /* AppView.swift */,
 				C12CC7D1274D3854004AF02F /* BeijingView.swift */,
 				C1A943BE274DF7CC005D3E61 /* SettingsView.swift */,
+				C1A943C0274E1D9D005D3E61 /* HutongView.swift */,
+				C1A943C2274E226E005D3E61 /* HeaderView.swift */,
+				C1A943C9274E3777005D3E61 /* CookingWayView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,13 +99,6 @@
 			children = (
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		C12CC7CE274D30D0004AF02F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C190C831274BB61E00957C69 = {
@@ -118,7 +122,7 @@
 		C190C83C274BB61E00957C69 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
-				C12CC7CE274D30D0004AF02F /* Model */,
+				C1A943C6274E28AB005D3E61 /* Model */,
 				C12CC7CD274D30B8004AF02F /* ViewModel */,
 				C12CC7CC274D30AE004AF02F /* View */,
 				C190C876274BEBFE00957C69 /* LaunchScreen.storyboard */,
@@ -142,6 +146,14 @@
 				C190C846274BB61F00957C69 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1A943C6274E28AB005D3E61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1A943C7274E28BD005D3E61 /* Header.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +276,11 @@
 				C190C875274BE8A900957C69 /* ViewController.swift in Sources */,
 				C1A943BF274DF7CC005D3E61 /* SettingsView.swift in Sources */,
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
+				C1A943C1274E1D9E005D3E61 /* HutongView.swift in Sources */,
 				C12CC7D0274D3543004AF02F /* AppView.swift in Sources */,
+				C1A943CA274E3777005D3E61 /* CookingWayView.swift in Sources */,
+				C1A943C8274E28BD005D3E61 /* Header.swift in Sources */,
+				C1A943C3274E226E005D3E61 /* HeaderView.swift in Sources */,
 				C12CC7D2274D3854004AF02F /* BeijingView.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C190C873274BE7A900957C69 /* AdModel.swift in Sources */,
