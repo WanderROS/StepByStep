@@ -54,10 +54,10 @@ struct HeaderView: View {
             .offset(x:-66,y: showHeadline ? 80 : 190)
             .animation(slideInAnimation)
             .onAppear{
-                showHeadline = true
+                self.showHeadline = true
             }
             .onDisappear{
-                showHeadline = false
+                self.showHeadline = false
             }
         }
         .frame(width: 480, height: 320, alignment: .center)
