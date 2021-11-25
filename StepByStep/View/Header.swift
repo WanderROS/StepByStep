@@ -65,7 +65,7 @@ struct Header: View {
                                 .modifier(ImageModifier2())
                         }
                     }
-                    .frame(maxWidth: 500)
+                    .frame(maxWidth: 450)
                 }
                 .layoutPriority(2)
                 
@@ -78,7 +78,33 @@ struct Header: View {
                         .modifier(ImageModifier2())
                 })
                 .layoutPriority(2)
+                
+                // footer
+                
+                HStack {
+                    // coin
+                    HStack(alignment: .center, spacing: 10){
+                        Button(action: {
+                            
+                        }){
+                            Text("20")
+                                .fontWeight(.heavy)
+                                .foregroundColor(.white)
+                                .modifier(CoinNumberModifier())
+                        }
+                        .modifier(CoinModifier())
+                        Image("coin")
+                            .resizable()
+                            .opacity(1)
+                            .scaledToFit()
+                            .frame(height:64)
+                            .animation(.default)
+                            .modifier(ShadowModifier())
+                    }
+                    
+                }
                 Spacer()
+                
             }
             .padding()
             .frame(maxWidth: 720)

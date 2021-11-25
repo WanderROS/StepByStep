@@ -51,3 +51,22 @@ struct ImageModifier2: ViewModifier {
             .modifier(ShadowModifier())
     }
 }
+
+struct CoinNumberModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(.title,design: .rounded))
+            .padding(5)
+            .shadow(color: Color("Shadow"), radius: 0, x: 0, y: 3)
+    }
+}
+
+struct CoinModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .background(Capsule().fill(LinearGradient(gradient: Gradient(colors: [Color("Pink"),Color("Purple")]), startPoint: .top, endPoint: .bottom)))
+            .padding(3)
+            .background(Capsule().fill(LinearGradient(gradient: Gradient(colors: [Color("Pink"),Color("Purple")]), startPoint: .top, endPoint: .bottom))
+                            .modifier(ShadowModifier()))
+    }
+}
