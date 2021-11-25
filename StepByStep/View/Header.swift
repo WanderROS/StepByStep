@@ -41,7 +41,43 @@ struct Header: View {
                     .modifier(ScoreContainerModifier())
                 }
                 
+                // fruitmachine
+                VStack(alignment: .center, spacing: 0){
+                    ZStack{
+                        ReelView()
+                        Image("strawberry")
+                            .resizable()
+                            .modifier(ImageModifier2())
+                    }
+                    
+                    HStack(alignment: .center, spacing:0){
+                        ZStack{
+                            ReelView()
+                            Image("ningmeng")
+                                .resizable()
+                                .modifier(ImageModifier2())
+                        }
+                        Spacer()
+                        ZStack{
+                            ReelView()
+                            Image("niuyouguo")
+                                .resizable()
+                                .modifier(ImageModifier2())
+                        }
+                    }
+                    .frame(maxWidth: 500)
+                }
+                .layoutPriority(2)
                 
+                Button(action: {
+                    print("push")
+                }, label: {
+                    Image("push")
+                        .renderingMode(.original)
+                        .resizable()
+                        .modifier(ImageModifier2())
+                })
+                .layoutPriority(2)
                 Spacer()
             }
             .padding()
