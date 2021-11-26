@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		C190C844274BB61F00957C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C843274BB61F00957C69 /* Assets.xcassets */; };
 		C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C846274BB61F00957C69 /* Preview Assets.xcassets */; };
 		C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C848274BB61F00957C69 /* LaunchScreen.storyboard */; };
+		C1A9A4802751168600587FBD /* SVEVideoUI in Frameworks */ = {isa = PBXBuildFile; productRef = C1A9A47F2751168600587FBD /* SVEVideoUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45ED14FB0433E7575D35DB5 /* Pods_StepByStep.framework in Frameworks */,
+				C1A9A4802751168600587FBD /* SVEVideoUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +58,6 @@
 				E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */,
 				16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -117,6 +118,9 @@
 			dependencies = (
 			);
 			name = StepByStep;
+			packageProductDependencies = (
+				C1A9A47F2751168600587FBD /* SVEVideoUI */,
+			);
 			productName = StepByStep;
 			productReference = C190C83A274BB61E00957C69 /* StepByStep.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +149,9 @@
 				Base,
 			);
 			mainGroup = C190C831274BB61E00957C69;
+			packageReferences = (
+				C1A9A47E2751168600587FBD /* XCRemoteSwiftPackageReference "SVEVideoUI" */,
+			);
 			productRefGroup = C190C83B274BB61E00957C69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -395,6 +402,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1A9A47E2751168600587FBD /* XCRemoteSwiftPackageReference "SVEVideoUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SergioEstevao/SVEVideoUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1A9A47F2751168600587FBD /* SVEVideoUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1A9A47E2751168600587FBD /* XCRemoteSwiftPackageReference "SVEVideoUI" */;
+			productName = SVEVideoUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C190C832274BB61E00957C69 /* Project object */;
 }
