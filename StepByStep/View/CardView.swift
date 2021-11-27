@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct CardView: View {
+struct CardView: View,Identifiable {
     let id = UUID()
     var photo: Destination
     var body: some View {
