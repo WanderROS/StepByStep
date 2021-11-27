@@ -9,15 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showAlert = false
+    @State var showGuideView = false
+    @State var showInfoView = false
     var body: some View {
         
         VStack {
-            HeaderView()
+            HeaderView(showGuideView: $showGuideView, showInfoView: $showInfoView)
             Spacer()
             CardView(photo: inHeartData[0])
             .padding()
             Spacer()
-            FooterView()
+            FooterView(showHeartAlert: $showAlert)
+        }
+        .alert(isPresented: $showAlert){
+            Alert(title: Text("成功"), message: Text("希望你和小伙伴可以度过一段美好的时光"), dismissButton: .default(Text("Have a Good Time")))
         }
     }
 }

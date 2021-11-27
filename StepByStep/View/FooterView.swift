@@ -9,13 +9,14 @@
 import SwiftUI
 
 struct FooterView: View {
+    @Binding var showHeartAlert: Bool
     var body: some View {
         HStack {
             Image(systemName: "xmark.circle")
                 .font(.system(size: 42, weight: .light, design: .serif))
             Spacer()
             Button(action: {
-                
+                self.showHeartAlert.toggle()
             }, label: {
                 Text("心中的目的地")
                     .font(.system(.subheadline, design: .rounded))
@@ -34,7 +35,8 @@ struct FooterView: View {
 }
 
 struct FooterView_Previews: PreviewProvider {
+    @State static var showAlert: Bool = false
     static var previews: some View {
-        FooterView().previewLayout(.fixed(width: 375, height: 80))
+        FooterView(showHeartAlert: $showAlert).previewLayout(.fixed(width: 375, height: 80))
     }
 }
