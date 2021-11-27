@@ -10,6 +10,8 @@
 		B45ED14FB0433E7575D35DB5 /* Pods_StepByStep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */; };
 		C17803B327525F760026DEE7 /* InHeartModdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17803B227525F760026DEE7 /* InHeartModdel.swift */; };
 		C17803B6275260950026DEE7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17803B5275260950026DEE7 /* CardView.swift */; };
+		C17803B8275265F00026DEE7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17803B7275265F00026DEE7 /* HeaderView.swift */; };
+		C17803BA2752683A0026DEE7 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17803B92752683A0026DEE7 /* FooterView.swift */; };
 		C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83D274BB61E00957C69 /* AppDelegate.swift */; };
 		C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83F274BB61E00957C69 /* SceneDelegate.swift */; };
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
@@ -23,6 +25,8 @@
 		43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepByStep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17803B227525F760026DEE7 /* InHeartModdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InHeartModdel.swift; sourceTree = "<group>"; };
 		C17803B5275260950026DEE7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C17803B7275265F00026DEE7 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C17803B92752683A0026DEE7 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		C190C83A274BB61E00957C69 /* StepByStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepByStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C190C83D274BB61E00957C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C190C83F274BB61E00957C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				C17803B5275260950026DEE7 /* CardView.swift */,
+				C17803B7275265F00026DEE7 /* HeaderView.swift */,
+				C17803B92752683A0026DEE7 /* FooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
+				C17803BA2752683A0026DEE7 /* FooterView.swift in Sources */,
+				C17803B8275265F00026DEE7 /* HeaderView.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C17803B327525F760026DEE7 /* InHeartModdel.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,

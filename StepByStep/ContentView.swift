@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CardView(photo: inHeartData[0])
+        
+        VStack {
+            HeaderView()
+            Spacer()
+            CardView(photo: inHeartData[0])
+            .padding()
+            Spacer()
+            FooterView()
+        }
     }
 }
 
