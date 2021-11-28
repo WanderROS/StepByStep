@@ -16,6 +16,9 @@
 		C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C848274BB61F00957C69 /* LaunchScreen.storyboard */; };
 		C1A7BCD12753168C00539DE8 /* UserCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCCF2753168C00539DE8 /* UserCoreData.xcdatamodeld */; };
 		C1A7BCF727531AE000539DE8 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCF627531AE000539DE8 /* AddTodoView.swift */; };
+		C1A7BCF92753517600539DE8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCF82753517600539DE8 /* SettingsView.swift */; };
+		C1A7BCFB275352CC00539DE8 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCFA275352CC00539DE8 /* FormRowStaticView.swift */; };
+		C1A7BCFD2753554900539DE8 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCFC2753554900539DE8 /* FormRowLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		C190C84B274BB61F00957C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1A7BCD02753168C00539DE8 /* UserCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserCoreData.xcdatamodel; sourceTree = "<group>"; };
 		C1A7BCF627531AE000539DE8 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		C1A7BCF82753517600539DE8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C1A7BCFA275352CC00539DE8 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		C1A7BCFC2753554900539DE8 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				C1A7BCF627531AE000539DE8 /* AddTodoView.swift */,
+				C1A7BCF82753517600539DE8 /* SettingsView.swift */,
+				C1A7BCFA275352CC00539DE8 /* FormRowStaticView.swift */,
+				C1A7BCFC2753554900539DE8 /* FormRowLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A7BCFB275352CC00539DE8 /* FormRowStaticView.swift in Sources */,
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
+				C1A7BCF92753517600539DE8 /* SettingsView.swift in Sources */,
+				C1A7BCFD2753554900539DE8 /* FormRowLinkView.swift in Sources */,
 				C1A7BCD12753168C00539DE8 /* UserCoreData.xcdatamodeld in Sources */,
 				C1A7BCF727531AE000539DE8 /* AddTodoView.swift in Sources */,
 			);
