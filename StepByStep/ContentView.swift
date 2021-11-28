@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            ForEach(0..<5) { item in
+                VegetableCardView()
+            }
+            
+        }
+            // Xcode11 上没有tabViewStyle
+        .padding(.vertical,20)
     }
 }
 
