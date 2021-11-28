@@ -21,6 +21,10 @@ struct AddTodoView: View {
             VStack {
                 Form {
                     TextField("待办事项",text: $name)
+                        .padding()
+                        .background(Color(UIColor.tertiarySystemFill))
+                        .cornerRadius(9)
+                        .font(.system(size: 24, weight: .bold, design: .default))
                     Picker("优先级",selection: $priority) {
                         ForEach(priorities,id: \.self){
                             Text($0)
@@ -43,6 +47,8 @@ struct AddTodoView: View {
                 }
                 Spacer()
             }
+            .padding(.horizontal)
+            .padding(.vertical,10)
             .navigationBarTitle("新的任务",displayMode: .inline)
         }
     }

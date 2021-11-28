@@ -14,28 +14,62 @@ struct ContentView: View {
     @EnvironmentObject var iconSettings: IconNames
     var themes: [Theme] = themeData
     @ObservedObject var theme = ThemeSettings()
+    @State private var animationButton = false
     var body: some View {
-        NavigationView{
-            List(0..<5) {
-                item in
-                Text("Hello, World!\(self.themes[self.theme.themeSettings].themeName)")
+        ZStack {
+            NavigationView{
+                List(0..<5) {
+                    item in
+                    Text("Hello, World!\(self.themes[self.theme.themeSettings].themeName)")
+                }
+                .navigationBarTitle("待办事项",displayMode: .inline)
+                .navigationBarItems(leading: Button(action: {
+                    self.showingSettingView.toggle()
+                }, label: {
+                    Image(systemName: "paintbrush")
+                }).accentColor(self.themes[self.theme.themeSettings].themeColor).sheet(isPresented: $showingSettingView, content: {
+                    SettingsView().environmentObject(self.iconSettings)
+                }),trailing: Button(action: {
+                    self.showingAddTodoView.toggle()
+                }, label: {
+                    Image(systemName: "plus")
+                }).accentColor(self.themes[self.theme.themeSettings].themeColor)
+                    .sheet(isPresented: $showingAddTodoView, content: {
+                        AddTodoView()
+                    }))
             }
-            .navigationBarTitle("待办事项",displayMode: .inline)
-            .navigationBarItems(leading: Button(action: {
-                self.showingSettingView.toggle()
-            }, label: {
-                Image(systemName: "paintbrush")
-            }).accentColor(self.themes[self.theme.themeSettings].themeColor).sheet(isPresented: $showingSettingView, content: {
-                SettingsView().environmentObject(self.iconSettings)
-            }),trailing: Button(action: {
+        }
+        .overlay(ZStack {
+            Group{
+                Circle()
+                    .fill(Color.blue)
+                    .opacity(self.animationButton ? 0.2 : 0.1)
+                    .frame(width:68,height: 68,alignment: .center)
+                Circle()
+                    .fill(Color.blue)
+                    .opacity(self.animationButton ? 0.15 : 0)
+                    .frame(width:88,height: 88,alignment: .center)
+            }
+            .animation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true),value: animationButton)
+            Button(action: {
                 self.showingAddTodoView.toggle()
             }, label: {
-                Image(systemName: "plus")
-            }).accentColor(self.themes[self.theme.themeSettings].themeColor)
-                .sheet(isPresented: $showingAddTodoView, content: {
-                    AddTodoView()
-                }))
+                ZStack {
+                    Image(systemName: "plus.circle.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundColor(.white)
+                        .background(Circle().fill(Color.blue))
+                        .frame(width:48,height:48,alignment:.center)
+                }
+            })
+                .onAppear(){
+                    self.animationButton.toggle()
+            }
         }
+        .padding(.bottom,25)
+        .padding(.trailing,25)
+            ,alignment: .bottomTrailing)
     }
 }
 
