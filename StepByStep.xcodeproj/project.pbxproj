@@ -16,6 +16,7 @@
 		C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C848274BB61F00957C69 /* LaunchScreen.storyboard */; };
 		C1A7BD0E2753B49700539DE8 /* VegetableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BD0D2753B49700539DE8 /* VegetableCardView.swift */; };
 		C1A7BD102753B71600539DE8 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BD0F2753B71600539DE8 /* StartButtonView.swift */; };
+		C1A7BD132753BA3C00539DE8 /* VegetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BD122753BA3C00539DE8 /* VegetableModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C190C84B274BB61F00957C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1A7BD0D2753B49700539DE8 /* VegetableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCardView.swift; sourceTree = "<group>"; };
 		C1A7BD0F2753B71600539DE8 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		C1A7BD122753BA3C00539DE8 /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VegetableModel.swift; path = StepByStep/Assets.xcassets/VegetableModel.swift; sourceTree = SOURCE_ROOT; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 		C190C83C274BB61E00957C69 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
+				C1A7BD112753BA1E00539DE8 /* Model */,
 				C1A7BD0C2753B48B00539DE8 /* View */,
 				C190C83D274BB61E00957C69 /* AppDelegate.swift */,
 				C190C83F274BB61E00957C69 /* SceneDelegate.swift */,
@@ -111,6 +114,14 @@
 				C1A7BD0F2753B71600539DE8 /* StartButtonView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C1A7BD112753BA1E00539DE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1A7BD122753BA3C00539DE8 /* VegetableModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C1A7BD0E2753B49700539DE8 /* VegetableCardView.swift in Sources */,
+				C1A7BD132753BA3C00539DE8 /* VegetableModel.swift in Sources */,
 				C1A7BD102753B71600539DE8 /* StartButtonView.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
 			);

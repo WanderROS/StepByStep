@@ -11,8 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            ForEach(0..<5) { item in
-                VegetableCardView()
+            ForEach(vegetableData) { item in
+                VegetableCardView(vegetable: item)
             }
             
         }
