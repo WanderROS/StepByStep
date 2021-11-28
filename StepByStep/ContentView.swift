@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showSetting: Bool = false
     var body: some View {
 //        TabView {
 //            ForEach(vegetableData) { item in
@@ -27,6 +28,13 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("蔬菜",displayMode: .inline)
+        .navigationBarItems(trailing: Button(action: {
+            self.showSetting = true
+        }, label: {
+            Image(systemName: "slider.horizontal.3")
+            }).sheet(isPresented: $showSetting, content: {
+                SettingsView()
+            }))
         }
     }
 }

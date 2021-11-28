@@ -18,6 +18,7 @@
 		C1A7BD102753B71600539DE8 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BD0F2753B71600539DE8 /* StartButtonView.swift */; };
 		C1A7BD132753BA3C00539DE8 /* VegetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BD122753BA3C00539DE8 /* VegetableModel.swift */; };
 		C1A7BD152753BDDF00539DE8 /* VegetableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BD142753BDDF00539DE8 /* VegetableRowView.swift */; };
+		C1A7BD172753C03F00539DE8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BD162753C03F00539DE8 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		C1A7BD0F2753B71600539DE8 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		C1A7BD122753BA3C00539DE8 /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VegetableModel.swift; path = StepByStep/Assets.xcassets/VegetableModel.swift; sourceTree = SOURCE_ROOT; };
 		C1A7BD142753BDDF00539DE8 /* VegetableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableRowView.swift; sourceTree = "<group>"; };
+		C1A7BD162753C03F00539DE8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				C1A7BD0D2753B49700539DE8 /* VegetableCardView.swift */,
 				C1A7BD0F2753B71600539DE8 /* StartButtonView.swift */,
 				C1A7BD142753BDDF00539DE8 /* VegetableRowView.swift */,
+				C1A7BD162753C03F00539DE8 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
+				C1A7BD172753C03F00539DE8 /* SettingsView.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C1A7BD152753BDDF00539DE8 /* VegetableRowView.swift in Sources */,
 				C1A7BD0E2753B49700539DE8 /* VegetableCardView.swift in Sources */,
