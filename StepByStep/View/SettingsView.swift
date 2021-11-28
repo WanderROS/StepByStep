@@ -10,10 +10,60 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var iconSettings: IconNames
+    
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 0) {
                 Form {
+                    Section(header: Text("选择应用程序图标")) {
+                        
+                        Picker(selection: $iconSettings.currentIndex, label: HStack{
+                            ZStack{
+                                RoundedRectangle(cornerRadius: 8, style: .continuous)
+                                    .stroke(Color.primary,lineWidth:2)
+                                Image(systemName: "paintbrush")
+                                    .font(.system(size: 28, weight: .regular, design: .default))
+                                    .foregroundColor(.primary)
+                            }
+                            .frame(width:44,height:44)
+                            
+                            Text("应用程序图标")
+                                .fontWeight(.bold)
+                                .foregroundColor(.primary)
+                        }){
+                            
+                            ForEach(0..<iconSettings.iconNames.count) {
+                                index in
+                                HStack {
+                                    Image(uiImage: UIImage(named:self.iconSettings.iconNames[index] ?? "pink") ?? UIImage())
+                                        .renderingMode(.original)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width:44,height: 44)
+                                        .cornerRadius(3)
+                                    Spacer().frame(width:8)
+                                    Text(self.iconSettings.iconNames[index] ?? "pink")
+                                        .frame(alignment: .leading)
+                                }
+                            }
+                        }
+                        .onReceive([self.iconSettings.currentIndex].publisher.first()){
+                            value in
+                            let index = self.iconSettings.iconNames.firstIndex(of: UIApplication.shared.alternateIconName) ?? 0
+                            if index != value {
+                                UIApplication.shared.setAlternateIconName(self.iconSettings.iconNames[value]){
+                                    (error) in
+                                    if let error = error {
+                                        print(error)
+                                    } else {
+                                        print("成功更改应用程序图标！")
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
                     Section(header: Text("关于应用程序")){
                         FormRowStaticView(icon: "gear", firstText: "应用程序", secondText: "待办事项")
                         FormRowStaticView(icon: "checkmark.seal", firstText: "兼容性", secondText: "iPhone,iPad")
@@ -38,7 +88,7 @@ struct SettingsView: View {
                     Image(systemName: "xmark")
                 })
             )
-            .navigationBarTitle("设置",displayMode: .inline)
+                .navigationBarTitle("设置",displayMode: .inline)
         }
         
     }
@@ -46,6 +96,6 @@ struct SettingsView: View {
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        SettingsView().environmentObject(IconNames())
     }
 }

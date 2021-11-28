@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var showingAddTodoView: Bool = false
     @State private var showingSettingView: Bool = false
+    @EnvironmentObject var iconSettings: IconNames
     var body: some View {
         NavigationView{
             List(0..<5) {
@@ -23,7 +24,7 @@ struct ContentView: View {
             }, label: {
                 Image(systemName: "paintbrush")
             }).sheet(isPresented: $showingSettingView, content: {
-                SettingsView()
+                SettingsView().environmentObject(self.iconSettings)
             }),trailing: Button(action: {
                 self.showingAddTodoView.toggle()
             }, label: {
@@ -39,5 +40,38 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+
+class IconNames: ObservableObject {
+    var iconNames: [String?] = []
+    
+    @Published var currentIndex = 0
+    
+    func getAlternnateIconNames() {
+        if let icons = Bundle.main.object(forInfoDictionaryKey: "CFBundleIcons") as? [String: Any],
+            let alternateIcons = icons["CFBundleAlternateIcons" ] as? [String: Any] {
+            for(_,value) in alternateIcons {
+                guard let iconList = value as? Dictionary<String,Any> else {
+                    return
+                }
+                guard let iconFiles = iconList["CFBundleIconFiles"] as? [String] else {
+                    return
+                }
+                guard let icon = iconFiles.first else {
+                    return
+                }
+                iconNames.append(icon)
+            }
+        }
+    }
+    
+    init() {
+        getAlternnateIconNames()
+        if let currentIcon = UIApplication.shared.alternateIconName {
+            self.currentIndex = iconNames.firstIndex(of: currentIcon) ?? 0
+        }
+        print(iconNames)
     }
 }

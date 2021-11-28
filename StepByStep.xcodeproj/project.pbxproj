@@ -19,6 +19,10 @@
 		C1A7BCF92753517600539DE8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCF82753517600539DE8 /* SettingsView.swift */; };
 		C1A7BCFB275352CC00539DE8 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCFA275352CC00539DE8 /* FormRowStaticView.swift */; };
 		C1A7BCFD2753554900539DE8 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7BCFC2753554900539DE8 /* FormRowLinkView.swift */; };
+		C1A7BD0027535DE500539DE8 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A7BCFF27535DE500539DE8 /* green.png */; };
+		C1A7BD0227535E1900539DE8 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A7BD0127535E1900539DE8 /* purple.png */; };
+		C1A7BD0427535E3C00539DE8 /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A7BD0327535E3C00539DE8 /* pink.png */; };
+		C1A7BD0627535E5200539DE8 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A7BD0527535E5200539DE8 /* gray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		C1A7BCF82753517600539DE8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C1A7BCFA275352CC00539DE8 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
 		C1A7BCFC2753554900539DE8 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		C1A7BCFF27535DE500539DE8 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		C1A7BD0127535E1900539DE8 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		C1A7BD0327535E3C00539DE8 /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		C1A7BD0527535E5200539DE8 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +98,7 @@
 		C190C83C274BB61E00957C69 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
+				C1A7BCFE27535B9100539DE8 /* Icons */,
 				C1A7BCF527531AC500539DE8 /* View */,
 				C190C83D274BB61E00957C69 /* AppDelegate.swift */,
 				C190C83F274BB61E00957C69 /* SceneDelegate.swift */,
@@ -120,6 +129,17 @@
 				C1A7BCFC2753554900539DE8 /* FormRowLinkView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C1A7BCFE27535B9100539DE8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				C1A7BD0527535E5200539DE8 /* gray.png */,
+				C1A7BD0327535E3C00539DE8 /* pink.png */,
+				C1A7BD0127535E1900539DE8 /* purple.png */,
+				C1A7BCFF27535DE500539DE8 /* green.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +202,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */,
+				C1A7BD0027535DE500539DE8 /* green.png in Resources */,
 				C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */,
 				C190C844274BB61F00957C69 /* Assets.xcassets in Resources */,
+				C1A7BD0227535E1900539DE8 /* purple.png in Resources */,
+				C1A7BD0627535E5200539DE8 /* gray.png in Resources */,
+				C1A7BD0427535E3C00539DE8 /* pink.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
