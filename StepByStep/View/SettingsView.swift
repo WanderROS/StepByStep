@@ -11,6 +11,8 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var iconSettings: IconNames
+    let themes: [Theme] = themeData
+    @ObservedObject var theme = ThemeSettings()
     
     var body: some View {
         NavigationView {
@@ -64,6 +66,30 @@ struct SettingsView: View {
                         }
                     }
                     
+                    Section(header: HStack {
+                        Text("选择应用程序主题")
+                        Image(systemName: "circle.fill")
+                        .resizable()
+                            .frame(width:10,height: 10)
+                            .foregroundColor(themes[self.theme.themeSettings].themeColor)
+                    }){
+                        List(themes) {
+                            item in
+                            Button(action: {
+                                self.theme.themeSettings = item.id
+                            }, label: {
+                                HStack {
+                                    Image(systemName: "circle.fill")
+                                        .foregroundColor(item.themeColor)
+                                    Text(item.themeName)
+                                    
+                                }
+                            })
+                                .accentColor(.primary)
+                        }
+                    }
+                    .padding(.vertical,3)
+                    
                     Section(header: Text("关于应用程序")){
                         FormRowStaticView(icon: "gear", firstText: "应用程序", secondText: "待办事项")
                         FormRowStaticView(icon: "checkmark.seal", firstText: "兼容性", secondText: "iPhone,iPad")
@@ -90,6 +116,7 @@ struct SettingsView: View {
             )
                 .navigationBarTitle("设置",displayMode: .inline)
         }
+        .accentColor(themes[self.theme.themeSettings].themeColor)
         
     }
 }
