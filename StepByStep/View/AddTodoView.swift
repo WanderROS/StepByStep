@@ -7,12 +7,13 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct AddTodoView: View {
     @State private var name = ""
     @State private var priority = "标准"
     @Environment(\.presentationMode) var presentationMode
-    
+    @Environment(\.managedObjectContext) var managedObjectContext
     let priorities = ["高","标准","低"]
     let themes: [Theme] = themeData
     @ObservedObject var theme = ThemeSettings()
@@ -33,8 +34,23 @@ struct AddTodoView: View {
                     .pickerStyle(SegmentedPickerStyle())
                     
                     Button(action: {
+                        if self.name != "" {
+                            
+                            let todo = E_Todo(context:self.managedObjectContext)
+                            todo.name = self.name
+                            todo.priority = self.priority
+                            
+                            do {
+                                try self.managedObjectContext.save()
+                                print("保存一个新的待办事项")
+                            } catch{
+                                print(error)
+                            }
+                        }
+
+                        
                         self.presentationMode.wrappedValue.dismiss()
-                        print("保存一个新的待办事项")
+                        
                     }, label: {
                         Text("保存")
                             .font(.system(size:24,weight:.bold,design:.default))
