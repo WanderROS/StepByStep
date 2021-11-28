@@ -10,14 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView {
-            ForEach(vegetableData) { item in
-                VegetableCardView(vegetable: item)
+//        TabView {
+//            ForEach(vegetableData) { item in
+//                VegetableCardView(vegetable: item)
+//            }
+//
+//        }
+//            // Xcode11 上没有tabViewStyle
+//        .padding(.vertical,20)
+        NavigationView {
+            List {
+                ForEach(vegetableData){
+                    item in
+                    VegetableRowView(vegetable: item)
+                        .padding(.vertical,4)
+                }
             }
-            
+            .navigationBarTitle("蔬菜",displayMode: .inline)
         }
-            // Xcode11 上没有tabViewStyle
-        .padding(.vertical,20)
     }
 }
 
