@@ -33,6 +33,15 @@
 				<key>UIPrerenderedIcon</key>
 				<false/>
 			</dict>
+			<key>green</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>green</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
 		</dict>
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
