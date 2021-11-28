@@ -66,7 +66,9 @@ struct ContentView: View {
                     }))
                     
                     // 没有内容时展示
-                    
+                    if todos.count == 0 {
+                        EmptyListView()
+                    }
                 }
             }
         }
