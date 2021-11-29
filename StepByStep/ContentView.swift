@@ -23,8 +23,12 @@ struct ContentView: View {
             List {
                 ForEach(vegetableData){
                     item in
-                    VegetableRowView(vegetable: item)
-                        .padding(.vertical,4)
+                    NavigationLink(
+                        destination: VegetableDetailView(vegetable: item)){
+                        VegetableRowView(vegetable: item)
+                            .padding(.vertical,4)
+                    }
+                    
                 }
             }
             .navigationBarTitle("蔬菜",displayMode: .inline)

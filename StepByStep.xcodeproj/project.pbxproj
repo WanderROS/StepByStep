@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B45ED14FB0433E7575D35DB5 /* Pods_StepByStep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */; };
+		C173874D27548859000AECF7 /* VegetableDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C173874C27548859000AECF7 /* VegetableDetailView.swift */; };
+		C173874F27548B7A000AECF7 /* VegetableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C173874E27548B7A000AECF7 /* VegetableHeaderView.swift */; };
+		C173875127548DB0000AECF7 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C173875027548DB0000AECF7 /* SourceLinkView.swift */; };
+		C173875327548EC7000AECF7 /* VegetableClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C173875227548EC7000AECF7 /* VegetableClassificationView.swift */; };
 		C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83D274BB61E00957C69 /* AppDelegate.swift */; };
 		C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83F274BB61E00957C69 /* SceneDelegate.swift */; };
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.release.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.release.xcconfig"; sourceTree = "<group>"; };
 		43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepByStep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C173874C27548859000AECF7 /* VegetableDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailView.swift; sourceTree = "<group>"; };
+		C173874E27548B7A000AECF7 /* VegetableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableHeaderView.swift; sourceTree = "<group>"; };
+		C173875027548DB0000AECF7 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		C173875227548EC7000AECF7 /* VegetableClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableClassificationView.swift; sourceTree = "<group>"; };
 		C190C83A274BB61E00957C69 /* StepByStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepByStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C190C83D274BB61E00957C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C190C83F274BB61E00957C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +126,10 @@
 				C1A7BD0F2753B71600539DE8 /* StartButtonView.swift */,
 				C1A7BD142753BDDF00539DE8 /* VegetableRowView.swift */,
 				C1A7BD162753C03F00539DE8 /* SettingsView.swift */,
+				C173874C27548859000AECF7 /* VegetableDetailView.swift */,
+				C173874E27548B7A000AECF7 /* VegetableHeaderView.swift */,
+				C173875027548DB0000AECF7 /* SourceLinkView.swift */,
+				C173875227548EC7000AECF7 /* VegetableClassificationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,12 +240,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
+				C173875127548DB0000AECF7 /* SourceLinkView.swift in Sources */,
 				C1A7BD172753C03F00539DE8 /* SettingsView.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C1A7BD152753BDDF00539DE8 /* VegetableRowView.swift in Sources */,
 				C1A7BD0E2753B49700539DE8 /* VegetableCardView.swift in Sources */,
 				C1A7BD132753BA3C00539DE8 /* VegetableModel.swift in Sources */,
 				C1A7BD102753B71600539DE8 /* StartButtonView.swift in Sources */,
+				C173874F27548B7A000AECF7 /* VegetableHeaderView.swift in Sources */,
+				C173874D27548859000AECF7 /* VegetableDetailView.swift in Sources */,
+				C173875327548EC7000AECF7 /* VegetableClassificationView.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wanderros.StepByStep;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wanderros.StepByStep0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,7 +417,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wanderros.StepByStep;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wanderros.StepByStep0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
