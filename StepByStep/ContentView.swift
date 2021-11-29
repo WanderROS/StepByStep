@@ -11,14 +11,25 @@ import SwiftUI
 struct ContentView: View {
     @State private var showSetting: Bool = false
     var body: some View {
-//        TabView {
-//            ForEach(vegetableData) { item in
-//                VegetableCardView(vegetable: item)
-//            }
+//        if #available(iOS 14.0, *) {
+//            TabView {
+//                ForEach(vegetableData) { item in
+//                    VegetableCardView(vegetable: item)
+//                }
 //
-//        }
+//            }
+//            .tabViewStyle(PageTabViewStyle())
 //            // Xcode11 上没有tabViewStyle
-//        .padding(.vertical,20)
+//            .padding(.vertical,20)
+//        } else {
+//            // Fallback on earlier versions
+//            TabView {
+//                ForEach(vegetableData) { item in
+//                    VegetableCardView(vegetable: item)
+//                }
+//
+//            }
+//        }
         NavigationView {
             List {
                 ForEach(vegetableData){
@@ -28,7 +39,7 @@ struct ContentView: View {
                         VegetableRowView(vegetable: item)
                             .padding(.vertical,4)
                     }
-                    
+
                 }
             }
             .navigationBarTitle("蔬菜",displayMode: .inline)
