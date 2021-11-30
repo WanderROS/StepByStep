@@ -19,8 +19,15 @@ struct ContentView: View {
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
+
                 ScrollView(.vertical,showsIndicators: false){
                     VStack(spacing: 0) {
+                        LazyVGrid(columns: gridLayout, spacing: 15, pinnedViews: /*@START_MENU_TOKEN@*/[]/*@END_MENU_TOKEN@*/, content: {
+                            ForEach(pens) {
+                                item in
+                                PenItemView(pen: item)
+                            }
+                        })
                         HeaderTabView()
                             .padding(.vertical,20)
                         CategoryGridView()
