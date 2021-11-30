@@ -23,6 +23,7 @@ struct ContentView: View {
                     VStack(spacing: 0) {
                         HeaderTabView()
                             .padding(.vertical,20)
+                        CategoryGridView()
                         FooterView()
                     }
                 }

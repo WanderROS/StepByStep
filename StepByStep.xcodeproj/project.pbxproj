@@ -20,6 +20,10 @@
 		C12471A92755E24E0067DAAB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471A82755E24E0067DAAB /* Header.swift */; };
 		C12471AB2755E2940067DAAB /* HeaderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471AA2755E2940067DAAB /* HeaderItemView.swift */; };
 		C12471AD2755E35E0067DAAB /* HeaderTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471AC2755E35E0067DAAB /* HeaderTabView.swift */; };
+		C12471AF2756378A0067DAAB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471AE2756378A0067DAAB /* Category.swift */; };
+		C12471B127563B160067DAAB /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471B027563B160067DAAB /* CategoryItemView.swift */; };
+		C12471B327563CCA0067DAAB /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471B227563CCA0067DAAB /* CategoryGridView.swift */; };
+		C12471B527563E020067DAAB /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471B427563E020067DAAB /* SectionView.swift */; };
 		C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83D274BB61E00957C69 /* AppDelegate.swift */; };
 		C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83F274BB61E00957C69 /* SceneDelegate.swift */; };
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
@@ -43,6 +47,10 @@
 		C12471A82755E24E0067DAAB /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Header.swift; path = ../../../../../Downloads/Header.swift; sourceTree = "<group>"; };
 		C12471AA2755E2940067DAAB /* HeaderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderItemView.swift; sourceTree = "<group>"; };
 		C12471AC2755E35E0067DAAB /* HeaderTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTabView.swift; sourceTree = "<group>"; };
+		C12471AE2756378A0067DAAB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C12471B027563B160067DAAB /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		C12471B227563CCA0067DAAB /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		C12471B427563E020067DAAB /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		C190C83A274BB61E00957C69 /* StepByStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepByStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C190C83D274BB61E00957C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C190C83F274BB61E00957C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C12471A82755E24E0067DAAB /* Header.swift */,
+				C12471AE2756378A0067DAAB /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 				C12471A42755DECC0067DAAB /* LogoView.swift */,
 				C12471AA2755E2940067DAAB /* HeaderItemView.swift */,
 				C12471AC2755E35E0067DAAB /* HeaderTabView.swift */,
+				C12471B027563B160067DAAB /* CategoryItemView.swift */,
+				C12471B227563CCA0067DAAB /* CategoryGridView.swift */,
+				C12471B427563E020067DAAB /* SectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12471B327563CCA0067DAAB /* CategoryGridView.swift in Sources */,
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
+				C12471B527563E020067DAAB /* SectionView.swift in Sources */,
+				C12471AF2756378A0067DAAB /* Category.swift in Sources */,
 				C12471A92755E24E0067DAAB /* Header.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C12471A32755DD9B0067DAAB /* NavigationBarView.swift in Sources */,
@@ -277,6 +292,7 @@
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
 				C12471AB2755E2940067DAAB /* HeaderItemView.swift in Sources */,
 				C12471A52755DECC0067DAAB /* LogoView.swift in Sources */,
+				C12471B127563B160067DAAB /* CategoryItemView.swift in Sources */,
 				C12471A12755D2AD0067DAAB /* FooterView.swift in Sources */,
 				C124719F2755CB990067DAAB /* Constant.swift in Sources */,
 			);
