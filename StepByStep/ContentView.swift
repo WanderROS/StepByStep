@@ -11,7 +11,28 @@ import AVKit
 
 struct ContentView: View {
     var body: some View {
-        VideoPlayerView()
+        TabView {
+            ThroughView()
+                .tabItem {
+                    Image(systemName: "square.grid.2x2")
+                    Text("浏览")
+                }
+            VideoPlayerView()
+                .tabItem {
+                    Image(systemName: "play.rectangle")
+                    Text("视频")
+                }
+            MapView()
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("位置")
+                }
+            GalleryView()
+                .tabItem {
+                    Image(systemName: "photo")
+                    Text("照片")
+                }
+        }
     }
 }
 
