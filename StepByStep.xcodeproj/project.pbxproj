@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B45ED14FB0433E7575D35DB5 /* Pods_StepByStep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */; };
+		C12471972755C7370067DAAB /* header.json in Resources */ = {isa = PBXBuildFile; fileRef = C12471932755C7370067DAAB /* header.json */; };
+		C12471982755C7370067DAAB /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = C12471942755C7370067DAAB /* category.json */; };
+		C12471992755C7370067DAAB /* pen.json in Resources */ = {isa = PBXBuildFile; fileRef = C12471952755C7370067DAAB /* pen.json */; };
+		C124719A2755C7370067DAAB /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = C12471962755C7370067DAAB /* brand.json */; };
+		C124719F2755CB990067DAAB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124719E2755CB990067DAAB /* Constant.swift */; };
+		C12471A12755D2AD0067DAAB /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471A02755D2AD0067DAAB /* FooterView.swift */; };
 		C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83D274BB61E00957C69 /* AppDelegate.swift */; };
 		C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83F274BB61E00957C69 /* SceneDelegate.swift */; };
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
@@ -19,6 +25,12 @@
 /* Begin PBXFileReference section */
 		16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.release.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.release.xcconfig"; sourceTree = "<group>"; };
 		43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepByStep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12471932755C7370067DAAB /* header.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = header.json; sourceTree = "<group>"; };
+		C12471942755C7370067DAAB /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		C12471952755C7370067DAAB /* pen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pen.json; sourceTree = "<group>"; };
+		C12471962755C7370067DAAB /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		C124719E2755CB990067DAAB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C12471A02755D2AD0067DAAB /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		C190C83A274BB61E00957C69 /* StepByStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepByStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C190C83D274BB61E00957C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C190C83F274BB61E00957C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,8 +68,41 @@
 				E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */,
 				16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C12471922755C7280067DAAB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C12471962755C7370067DAAB /* brand.json */,
+				C12471942755C7370067DAAB /* category.json */,
+				C12471932755C7370067DAAB /* header.json */,
+				C12471952755C7370067DAAB /* pen.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C124719B2755CB5B0067DAAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C124719C2755CB620067DAAB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C124719E2755CB990067DAAB /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C124719D2755CB830067DAAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C12471A02755D2AD0067DAAB /* FooterView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C190C831274BB61E00957C69 = {
@@ -81,6 +126,10 @@
 		C190C83C274BB61E00957C69 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
+				C124719D2755CB830067DAAB /* View */,
+				C124719C2755CB620067DAAB /* Utility */,
+				C124719B2755CB5B0067DAAB /* Model */,
+				C12471922755C7280067DAAB /* Data */,
 				C190C83D274BB61E00957C69 /* AppDelegate.swift */,
 				C190C83F274BB61E00957C69 /* SceneDelegate.swift */,
 				C190C841274BB61E00957C69 /* ContentView.swift */,
@@ -159,9 +208,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12471972755C7370067DAAB /* header.json in Resources */,
 				C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */,
+				C124719A2755C7370067DAAB /* brand.json in Resources */,
+				C12471982755C7370067DAAB /* category.json in Resources */,
 				C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */,
 				C190C844274BB61F00957C69 /* Assets.xcassets in Resources */,
+				C12471992755C7370067DAAB /* pen.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +253,8 @@
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
+				C12471A12755D2AD0067DAAB /* FooterView.swift in Sources */,
+				C124719F2755CB990067DAAB /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
