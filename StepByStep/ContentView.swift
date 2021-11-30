@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowingDetail: Bool = false
+    @State private var selectItem: Pen = pens[0]
     var body: some View {
         if #available(iOS 14.0, *) {
             VStack {
@@ -26,6 +28,13 @@ struct ContentView: View {
                             ForEach(pens) {
                                 item in
                                 PenItemView(pen: item)
+                                    .sheet(isPresented: $isShowingDetail, content: {
+                                        PenDetailView(pen: selectItem)
+                                    })
+                                    .onTapGesture {
+                                        self.isShowingDetail = true
+                                        self.selectItem = item
+                                    }
                             }
                         })
                         TitleView(title: "品牌")
