@@ -27,6 +27,9 @@
 		C12471B72756454B0067DAAB /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471B62756454B0067DAAB /* TitleView.swift */; };
 		C12471B9275646120067DAAB /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471B8275646120067DAAB /* Pen.swift */; };
 		C12471BB2756469F0067DAAB /* PenItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471BA2756469F0067DAAB /* PenItemView.swift */; };
+		C12471BD27564A7C0067DAAB /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471BC27564A7C0067DAAB /* Brand.swift */; };
+		C12471BF27564AD70067DAAB /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471BE27564AD70067DAAB /* BrandItemView.swift */; };
+		C12471C127564B7F0067DAAB /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12471C027564B7F0067DAAB /* BrandGridView.swift */; };
 		C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83D274BB61E00957C69 /* AppDelegate.swift */; };
 		C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83F274BB61E00957C69 /* SceneDelegate.swift */; };
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
@@ -57,6 +60,9 @@
 		C12471B62756454B0067DAAB /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		C12471B8275646120067DAAB /* Pen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
 		C12471BA2756469F0067DAAB /* PenItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenItemView.swift; sourceTree = "<group>"; };
+		C12471BC27564A7C0067DAAB /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		C12471BE27564AD70067DAAB /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		C12471C027564B7F0067DAAB /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
 		C190C83A274BB61E00957C69 /* StepByStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepByStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C190C83D274BB61E00957C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C190C83F274BB61E00957C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 			children = (
 				C124719E2755CB990067DAAB /* Constant.swift */,
 				C12471A62755E1F80067DAAB /* BundleExtensions.swift */,
+				C12471BC27564A7C0067DAAB /* Brand.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -140,6 +147,8 @@
 				C12471B427563E020067DAAB /* SectionView.swift */,
 				C12471B62756454B0067DAAB /* TitleView.swift */,
 				C12471BA2756469F0067DAAB /* PenItemView.swift */,
+				C12471BE27564AD70067DAAB /* BrandItemView.swift */,
+				C12471C027564B7F0067DAAB /* BrandGridView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,13 +305,16 @@
 				C12471A92755E24E0067DAAB /* Header.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C12471B9275646120067DAAB /* Pen.swift in Sources */,
+				C12471C127564B7F0067DAAB /* BrandGridView.swift in Sources */,
 				C12471A32755DD9B0067DAAB /* NavigationBarView.swift in Sources */,
 				C12471B72756454B0067DAAB /* TitleView.swift in Sources */,
 				C12471A72755E1F80067DAAB /* BundleExtensions.swift in Sources */,
+				C12471BD27564A7C0067DAAB /* Brand.swift in Sources */,
 				C12471AD2755E35E0067DAAB /* HeaderTabView.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
 				C12471AB2755E2940067DAAB /* HeaderItemView.swift in Sources */,
 				C12471A52755DECC0067DAAB /* LogoView.swift in Sources */,
+				C12471BF27564AD70067DAAB /* BrandItemView.swift in Sources */,
 				C12471B127563B160067DAAB /* CategoryItemView.swift in Sources */,
 				C12471BB2756469F0067DAAB /* PenItemView.swift in Sources */,
 				C12471A12755D2AD0067DAAB /* FooterView.swift in Sources */,

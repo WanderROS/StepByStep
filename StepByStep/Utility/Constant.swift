@@ -17,6 +17,7 @@ let colorGray = Color(UIColor.systemGray4)
 let headers: [Header] = Bundle.main.decode("header.json")
 let categories: [Category] = Bundle.main.decode("category.json")
 let pens: [Pen] = Bundle.main.decode("pen.json")
+let brands: [Brand] = Bundle.main.decode("brand.json")
 
 // layout
 let columnSpacing: CGFloat = 10

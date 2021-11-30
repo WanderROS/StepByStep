@@ -28,6 +28,8 @@ struct ContentView: View {
                                 PenItemView(pen: item)
                             }
                         })
+                        TitleView(title: "品牌")
+                        BrandGridView()
                         HeaderTabView()
                             .padding(.vertical,20)
                         CategoryGridView()
