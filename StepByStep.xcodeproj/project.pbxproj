@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B45ED14FB0433E7575D35DB5 /* Pods_StepByStep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE0684DC5A0E532000A6E9 /* Pods_StepByStep.framework */; };
+		C117AEC7275B6C5A0035E693 /* MDText in Frameworks */ = {isa = PBXBuildFile; productRef = C117AEC6275B6C5A0035E693 /* MDText */; };
 		C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83D274BB61E00957C69 /* AppDelegate.swift */; };
 		C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C83F274BB61E00957C69 /* SceneDelegate.swift */; };
 		C190C842274BB61E00957C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190C841274BB61E00957C69 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C117AEC7275B6C5A0035E693 /* MDText in Frameworks */,
 				B45ED14FB0433E7575D35DB5 /* Pods_StepByStep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +58,6 @@
 				E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */,
 				16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,12 +112,16 @@
 				C190C836274BB61E00957C69 /* Sources */,
 				C190C837274BB61E00957C69 /* Frameworks */,
 				C190C838274BB61E00957C69 /* Resources */,
+				16B0EF1886ECDBE989F936AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = StepByStep;
+			packageProductDependencies = (
+				C117AEC6275B6C5A0035E693 /* MDText */,
+			);
 			productName = StepByStep;
 			productReference = C190C83A274BB61E00957C69 /* StepByStep.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +150,9 @@
 				Base,
 			);
 			mainGroup = C190C831274BB61E00957C69;
+			packageReferences = (
+				C117AEC5275B6C5A0035E693 /* XCRemoteSwiftPackageReference "MDText" */,
+			);
 			productRefGroup = C190C83B274BB61E00957C69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -168,6 +176,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		16B0EF1886ECDBE989F936AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepByStep/Pods-StepByStep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepByStep/Pods-StepByStep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepByStep/Pods-StepByStep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D51C1844F201A19407EF6288 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C117AEC5275B6C5A0035E693 /* XCRemoteSwiftPackageReference "MDText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lambdo-Labs/MDText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C117AEC6275B6C5A0035E693 /* MDText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C117AEC5275B6C5A0035E693 /* XCRemoteSwiftPackageReference "MDText" */;
+			productName = MDText;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C190C832274BB61E00957C69 /* Project object */;
 }
