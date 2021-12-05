@@ -7,23 +7,14 @@
 //
 
 import SwiftUI
-import SPAlert
+import SPIndicator
 struct ContentView : View {
-    @State var showAlert = false
     var body: some View {
-       Button("Show alert") {
-        self.showAlert = true
-       }.spAlert(isPresent: $showAlert,
-               title: "Alert title",
-               message: "Alert message",
-               duration: 2.0,
-               dismissOnTap: true,
-               preset: .custom(UIImage(systemName: "heart")!),
-               haptic: .success,
-               layout: .init(),
-               completion: {
-                   print("Alert is destory")
-               })
+        Button("Show Indicator") {
+            let indicatorView = SPIndicatorView(title: "Complete", preset: .done)
+         //   indicatorView.backgroundColor = UIColor.orange
+            indicatorView.present(duration: 3)
+        }
     }
 }
 struct ContentView_Previews: PreviewProvider {

@@ -6,7 +6,7 @@ target 'StepByStep' do
   use_frameworks!
   
   pod 'SPAlert'
-
+  pod 'SPIndicator'
   # Pods for StepByStep
 
 end

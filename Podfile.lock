@@ -1,16 +1,20 @@
 PODS:
   - SPAlert (3.5.1)
+  - SPIndicator (1.5.0)
 
 DEPENDENCIES:
   - SPAlert
+  - SPIndicator
 
 SPEC REPOS:
   trunk:
     - SPAlert
+    - SPIndicator
 
 SPEC CHECKSUMS:
   SPAlert: a6f7fd1e56b5a798327af2d67abebc60985774d7
+  SPIndicator: 838af916c34c6219cf0fc7a25b867dae6227c594
 
-PODFILE CHECKSUM: 7cf7f25d3a724116c2b7da72bf917ce9b452afd4
+PODFILE CHECKSUM: 0126d4e955972d4b902a80bb38cccfbe4b0b8afc
 
 COCOAPODS: 1.11.2
