@@ -16,6 +16,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
+            WebImage()
             HStack {
                 Text("密码：").frame(width: 50, alignment: .leading)
                     .padding(.leading,30)
