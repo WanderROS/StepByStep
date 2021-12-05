@@ -8,13 +8,17 @@
 
 import SwiftUI
 import SPIndicator
+import SPConfetti
+
 struct ContentView : View {
+    @State private var isPresenting = false
+    
     var body: some View {
-        Button("Show Indicator") {
-            let indicatorView = SPIndicatorView(title: "Complete", preset: .done)
-         //   indicatorView.backgroundColor = UIColor.orange
-            indicatorView.present(duration: 3)
-        }
+        Button("🎉 hooray!", action: { self.isPresenting.toggle() })
+            .confetti(isPresented: $isPresenting,
+                      animation: .fullWidthToDown,
+                      particles: [.triangle, .arc,.heart],
+                      duration: 3.0)
     }
 }
 struct ContentView_Previews: PreviewProvider {

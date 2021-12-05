@@ -7,121 +7,173 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B30F2193199BC636878B32453662FE /* SPAlertIconPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96825A86DD03229F06E87E2BEA162867 /* SPAlertIconPreset.swift */; };
-		0FD2C269593CE507C9AD5DFC0021DAD6 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062E51EE42B424669A35CE976E47653 /* UIFontExtension.swift */; };
-		19A689BE88AEE57E9FF71E2C88BF13FA /* SPIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128EA863FA1F30048BBB1ED686E2F04 /* SPIndicator.swift */; };
-		1DD247261A95AE8838E6FB168B7428FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2029632B59DDA4E8B210BF92A51A47E0 /* SPAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B431CA8A447748464CDA0F0AFE830AC /* SPAlert-dummy.m */; };
+		05B30F2193199BC636878B32453662FE /* SPAlertIconPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF72D24FC1FF4FF557E30229BBABEB1 /* SPAlertIconPreset.swift */; };
+		0D438BBB33D000831515518CCFCE5DA4 /* Pods-StepByStep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AA3C4E3C1C0D75A2CDC66BF66161 /* Pods-StepByStep-dummy.m */; };
+		0FD2C269593CE507C9AD5DFC0021DAD6 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE23D7A0D7DF1CC30A474F1A1AF358 /* UIFontExtension.swift */; };
+		12925F95DA56834EC0324EBBF2160938 /* SPConfettiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067D32DD630384CA0C863CF63E4A33C /* SPConfettiConfiguration.swift */; };
+		15C459E9A55ECF833D9C6AA5E3738CDD /* SPConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF105B9A361E014031BFB2B268FC9E /* SPConfetti.swift */; };
+		184BE0DA51FB7A572B2259A32718D3B7 /* SPConfetti-SPConfetti in Resources */ = {isa = PBXBuildFile; fileRef = 99A3A2574E317C8728D0DF37846F762E /* SPConfetti-SPConfetti */; };
+		19A689BE88AEE57E9FF71E2C88BF13FA /* SPIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152DC64068442BEA3CACD7825F59BB86 /* SPIndicator.swift */; };
+		1C079201D40FA9FBE30ED65144E689B3 /* SPConfettiParticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599C2589B83F29823C161B8C1A559C68 /* SPConfettiParticle.swift */; };
+		2029632B59DDA4E8B210BF92A51A47E0 /* SPAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF75CD2322F98D01C0B235F30D98EA90 /* SPAlert-dummy.m */; };
+		2A3239C93DC17C204988E970786DB038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2D3F2E8F1F3EFADD05B55B921711E9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3DC0272452CA112BBBB39091D8AA3FD0 /* SwiftUIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C62C0F9A3D6B2B96BE669ACEA0198 /* SwiftUIExtension.swift */; };
-		4B087DC6684FEBB66E232CA4B914D2DC /* SPIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A58F1D8511E55DA1A094689C97772 /* SPIndicator-dummy.m */; };
-		4E04CEF817F7803A73945951C9E7AAC6 /* SPIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259BF51D0CB63D3B20EB44163F9B2EC /* SPIndicatorView.swift */; };
-		5133DCE52651A576DA075CF365ED838E /* SPIndicatorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7961F1AB5C6812F86B6757700A2AEC /* SPIndicatorLayout.swift */; };
-		5504EDCB24DC5845DB27865CEA986BCC /* SPIndicatorIconPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA22F2130A0952F770F724B654C255 /* SPIndicatorIconPreset.swift */; };
-		6006DA2BC268C41C7DDD5D5CA767A8F8 /* SPIndicatorIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97909B1B2A9113C15CCDD2B3699D9998 /* SPIndicatorIconDoneView.swift */; };
-		7686969459F6A9C976B67DBF9F992122 /* SPAlertSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC67AE2E8E4C5F8B2B69956E054911A /* SPAlertSpinnerView.swift */; };
+		30C575BB9548501531DC56F3E372EC86 /* SPConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FA6DD224F8F61E38474EDE7550B15F /* SPConfettiView.swift */; };
+		33A9BBD12AD9BCF575E62455CDB6DF41 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A99D76A33DB60C60C5BA347E66BB70 /* Delay.swift */; };
+		35232C39BF81C67AC0775C1AB988CD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD605B5BFCF914ADED87C51BB66605F8 /* Assets.xcassets */; };
+		3DC0272452CA112BBBB39091D8AA3FD0 /* SwiftUIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287A31E8081C9A6C5EC5AA9D11DB443 /* SwiftUIExtension.swift */; };
+		465CE43BFAB89D515694DD5CA4D21DD7 /* Pods-StepByStep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8FC1A7459EF28031CA2A861E25C0C0 /* Pods-StepByStep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B087DC6684FEBB66E232CA4B914D2DC /* SPIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13912B851DE98BBCFA33D2AECFA63234 /* SPIndicator-dummy.m */; };
+		4E04CEF817F7803A73945951C9E7AAC6 /* SPIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA892CCE2A5102E2F37CF534CC97D7E /* SPIndicatorView.swift */; };
+		5133DCE52651A576DA075CF365ED838E /* SPIndicatorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD133C78DDDB9F4CE598688141626DA /* SPIndicatorLayout.swift */; };
+		540536206B873DE4F13CC417BA595582 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939EF0043B3D13431AA1187793462076 /* Images.swift */; };
+		5504EDCB24DC5845DB27865CEA986BCC /* SPIndicatorIconPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B590060672D93A06A1A94467F9F9B /* SPIndicatorIconPreset.swift */; };
+		6006DA2BC268C41C7DDD5D5CA767A8F8 /* SPIndicatorIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7ECE090A83610DB93652092EF42634 /* SPIndicatorIconDoneView.swift */; };
+		7686969459F6A9C976B67DBF9F992122 /* SPAlertSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894689530EA4A098E992653947CCBACB /* SPAlertSpinnerView.swift */; };
+		7E9704403F3DA989ED5C46D7355246A7 /* SPConfetti-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2FD5B1D1258F84EF331D2C9BEC796 /* SPConfetti-dummy.m */; };
 		7FF58934604F5C1E27B64E746E7B7607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		821123495158825E3AFDE89E28A4F38E /* SPIndicatorHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84687AC31D5CF863E1C792C0A932D365 /* SPIndicatorHaptic.swift */; };
-		833853ADF0EDC50A87047559BA27C032 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA73503B1A2FD26F0B152DADE1F0DE3 /* SPAlertIconErrorView.swift */; };
-		86D73DC6B60DD4361FF389058E0A7A22 /* SPAlertLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4550B196FE9C1DF18A512CC513D400 /* SPAlertLayout.swift */; };
-		8A0AF4286FF1FE7D5D5C15BD0F5765CD /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70C0601DCEC37FB92DB44828E81F806 /* UIFontExtension.swift */; };
-		95C7F787CE520BFAB49874184D200F3C /* SPAlertIconHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C595C6F1AD0E453FF77B47F8CBBEE /* SPAlertIconHeartView.swift */; };
-		99FD584BAD03AFF5EA0B70A8E41D9067 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF0A030CD79E479DC9C5D1A8A40D81 /* SPAlertIconErrorView.swift */; };
-		A28E7D2475321DDAE105319398A7048D /* SPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642211705B7A20C0A6312E34E284ABEE /* SPAlertView.swift */; };
-		A60FA78D7FC387C44DD688F04AC90085 /* Pods-StepByStep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8FC1A7459EF28031CA2A861E25C0C0 /* Pods-StepByStep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6CD07F67707EBE3B66D542492CBC6CC /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5067DEA2544332628C2463384CD05 /* UILabelExtension.swift */; };
-		AAF61E52C86E88E3D53DECD23719E3E4 /* SPAlertHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701AFFE32224EEC8589B14EDEA153F6 /* SPAlertHaptic.swift */; };
-		AE0F4CAA2A529368B815DEFD0A04DA6A /* SPIndicatorPresentSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B38ADE8C25F6C62C92170A65E1180 /* SPIndicatorPresentSide.swift */; };
-		B3E9E9A76DF09663384531C8FD6856C6 /* SPAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6C5BD4CFFF4B6C91DC44E6B4D3C56E /* SPAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5A39C2B515C7719E6CE07F2F11C0599 /* SPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76E1A399C233B4E04C3F445954BC4A /* SPAlert.swift */; };
-		B986C5E940D62588B538F01117C05170 /* SPIndicatorIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278233D343FDE23B7BF01971C7E46646 /* SPIndicatorIconAnimatable.swift */; };
-		C0285A38AAE1AB08CC5BC089C061F424 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F07B11635E6ABC3FDCDEA457256E466 /* UILabelExtension.swift */; };
-		D2FD113103158A8B3D4C034B5CCDBB73 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BEEED6C570024622499365E4BE2806 /* UIColorExtension.swift */; };
-		D81372C21DB19E46F1E6C23642D92DEB /* SPAlertIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEAE88CEB1696D2E98D4737E5617C24 /* SPAlertIconAnimatable.swift */; };
-		E6B1B02D8274C9A8D7D10BD07A14BCBC /* Pods-StepByStep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AA3C4E3C1C0D75A2CDC66BF66161 /* Pods-StepByStep-dummy.m */; };
-		F1412D089BB5A2F3C8F7CD15849CB1D4 /* SPAlertIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31F9C35A60171482F1C274075C3A40 /* SPAlertIconDoneView.swift */; };
-		FD129C28853F203403FE864E3109D8AA /* SPIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E1802414918B0A0EFB9F6ECE467EEC /* SPIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		821123495158825E3AFDE89E28A4F38E /* SPIndicatorHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0979F61C7488839BB07BB5C2BF47F /* SPIndicatorHaptic.swift */; };
+		833853ADF0EDC50A87047559BA27C032 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6990597BEB5C3ED3C16783C9047BB /* SPAlertIconErrorView.swift */; };
+		86D73DC6B60DD4361FF389058E0A7A22 /* SPAlertLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA99CC01711C70A03E9CA6C3D62B250 /* SPAlertLayout.swift */; };
+		8A0AF4286FF1FE7D5D5C15BD0F5765CD /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EF4B4E47653B0B51E2701FA272D05 /* UIFontExtension.swift */; };
+		95C7F787CE520BFAB49874184D200F3C /* SPAlertIconHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23765000DCE39DC7DD9B94CFBDCE04C7 /* SPAlertIconHeartView.swift */; };
+		99FD584BAD03AFF5EA0B70A8E41D9067 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAF5205BBF3521A6232DD8908D3DCF /* SPAlertIconErrorView.swift */; };
+		9FDBD3E359CE1AB8AE0C828C863F2D8E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDDB0FEFCDFD800905AA04E2676B0BA /* UIImageExtension.swift */; };
+		A28E7D2475321DDAE105319398A7048D /* SPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B129B731842F977209F6B5621C33A4 /* SPAlertView.swift */; };
+		A6CD07F67707EBE3B66D542492CBC6CC /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A840E2019ADBDFEE39FD6DC01ED590 /* UILabelExtension.swift */; };
+		AAF61E52C86E88E3D53DECD23719E3E4 /* SPAlertHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF477F2550EA97CBB16EA9CDA14401C /* SPAlertHaptic.swift */; };
+		AE0F4CAA2A529368B815DEFD0A04DA6A /* SPIndicatorPresentSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407B87E8C431EC40C704F18825D358F9 /* SPIndicatorPresentSide.swift */; };
+		B3E9E9A76DF09663384531C8FD6856C6 /* SPAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 704B20459EC4DC0E52E60581D6C220BE /* SPAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EBB0F30D49C176DB6689A8EDF577C7 /* SPConfettiAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E815B80257AB978AD0C0BDBED0844 /* SPConfettiAnimation.swift */; };
+		B5A39C2B515C7719E6CE07F2F11C0599 /* SPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6256A392A52B104298948AC303153BF /* SPAlert.swift */; };
+		B986C5E940D62588B538F01117C05170 /* SPIndicatorIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367721F5D31F0DAE6BE9AB3B334950A6 /* SPIndicatorIconAnimatable.swift */; };
+		C0285A38AAE1AB08CC5BC089C061F424 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC49017D9468E6D1B46DD07C1DE27D00 /* UILabelExtension.swift */; };
+		C7D3218433743950DEC74C1BBF038E01 /* SPConfettiModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC031F21FEE2302FFB6DB20DED8E5505 /* SPConfettiModifier.swift */; };
+		C9DADCD595893BA648B4CA0966E5D54D /* SPConfettiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD693C9F154B8588D7028FB6918D217 /* SPConfettiDelegate.swift */; };
+		D08AEE4517A1049CDA368885DB582E8D /* SPConfettiParticlesConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E61572CC31B16A8238C8B781A20C8 /* SPConfettiParticlesConfig.swift */; };
+		D2FD113103158A8B3D4C034B5CCDBB73 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB442493C2080EBDB2FD925E66E485B /* UIColorExtension.swift */; };
+		D3E6945B9ACB21845CD3C7ED23481D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D81372C21DB19E46F1E6C23642D92DEB /* SPAlertIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BD409FAAAA84A192188A340FD644A /* SPAlertIconAnimatable.swift */; };
+		F1412D089BB5A2F3C8F7CD15849CB1D4 /* SPAlertIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B442BBCD0D41E6DC3714C67734A1E6 /* SPAlertIconDoneView.swift */; };
+		F4B9ED9971CD59E8980FBCFA230985F2 /* SPConfetti-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60155EFF02054C930B8E2E54A9244E53 /* SPConfetti-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD129C28853F203403FE864E3109D8AA /* SPIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC510F508A8C5DA88FDD54FAD1ED6DC /* SPIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C0A8628A05741DC61C0F72B18FFFFCCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4652B2924FE3B941944F77DA8477ABD;
-			remoteInfo = SPAlert;
-		};
-		E24562635F6D6E76108F348885155A8A /* PBXContainerItemProxy */ = {
+		2B3BA35400694140A397A248132B38C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 765CC6276452C8332186E7325B6370CD;
 			remoteInfo = SPIndicator;
 		};
+		3DFF6957430D27C610991439490B2888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D94D19F3035695F3446D3D3EEAC6EA;
+			remoteInfo = SPConfetti;
+		};
+		3FD9FE89D97EAD3C9A4AC6DB6E54FD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B626D180E812DE24D52B50574DB8B2;
+			remoteInfo = "SPConfetti-SPConfetti";
+		};
+		4E15E2FC9C56A8C831EB9896A227B0DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4652B2924FE3B941944F77DA8477ABD;
+			remoteInfo = SPAlert;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E1802414918B0A0EFB9F6ECE467EEC /* SPIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPIndicator-umbrella.h"; sourceTree = "<group>"; };
+		01A99D76A33DB60C60C5BA347E66BB70 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = Sources/SPConfetti/Extensions/Delay.swift; sourceTree = "<group>"; };
+		026E61572CC31B16A8238C8B781A20C8 /* SPConfettiParticlesConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfettiParticlesConfig.swift; path = Sources/SPConfetti/Models/SPConfettiParticlesConfig.swift; sourceTree = "<group>"; };
+		0EDDB0FEFCDFD800905AA04E2676B0BA /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = Sources/SPConfetti/Extensions/UIImageExtension.swift; sourceTree = "<group>"; };
+		13912B851DE98BBCFA33D2AECFA63234 /* SPIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPIndicator-dummy.m"; sourceTree = "<group>"; };
+		152DC64068442BEA3CACD7825F59BB86 /* SPIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicator.swift; path = Sources/SPIndicator/SPIndicator.swift; sourceTree = "<group>"; };
+		1561E6DB9CB98A7F82281E8E40A70738 /* SPConfetti-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPConfetti-prefix.pch"; sourceTree = "<group>"; };
 		1610EA30A41A8E40274DA799098CF8BB /* SPIndicator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPIndicator; path = SPIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C4A58F1D8511E55DA1A094689C97772 /* SPIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPIndicator-dummy.m"; sourceTree = "<group>"; };
-		1DEAE88CEB1696D2E98D4737E5617C24 /* SPAlertIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAnimatable.swift; path = Sources/SPAlert/Protocols/SPAlertIconAnimatable.swift; sourceTree = "<group>"; };
-		1EEF0A030CD79E479DC9C5D1A8A40D81 /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconErrorView.swift; path = "Sources/SPAlert/Preset Views/SPAlertIconErrorView.swift"; sourceTree = "<group>"; };
+		1DE2FD5B1D1258F84EF331D2C9BEC796 /* SPConfetti-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPConfetti-dummy.m"; sourceTree = "<group>"; };
+		1E8BD409FAAAA84A192188A340FD644A /* SPAlertIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAnimatable.swift; path = Sources/SPAlert/Protocols/SPAlertIconAnimatable.swift; sourceTree = "<group>"; };
+		23765000DCE39DC7DD9B94CFBDCE04C7 /* SPAlertIconHeartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconHeartView.swift; path = "Sources/SPAlert/Preset Views/SPAlertIconHeartView.swift"; sourceTree = "<group>"; };
 		24781EDD04F0D957DE0FD82E1803683C /* Pods-StepByStep-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepByStep-acknowledgements.plist"; sourceTree = "<group>"; };
-		2506ADAC2212A63CDE76C57553279EE7 /* SPAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.debug.xcconfig; sourceTree = "<group>"; };
-		278233D343FDE23B7BF01971C7E46646 /* SPIndicatorIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorIconAnimatable.swift; path = Sources/SPIndicator/Protocols/SPIndicatorIconAnimatable.swift; sourceTree = "<group>"; };
-		278B11FCE24FDD8870E7E1A5EF7BB161 /* SPAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-prefix.pch"; sourceTree = "<group>"; };
-		3C4550B196FE9C1DF18A512CC513D400 /* SPAlertLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertLayout.swift; path = Sources/SPAlert/Models/SPAlertLayout.swift; sourceTree = "<group>"; };
-		411697162187466A0D19D2DB38ADCD64 /* SPIndicator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPIndicator.modulemap; sourceTree = "<group>"; };
-		497B38ADE8C25F6C62C92170A65E1180 /* SPIndicatorPresentSide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorPresentSide.swift; path = Sources/SPIndicator/Models/SPIndicatorPresentSide.swift; sourceTree = "<group>"; };
-		513C62C0F9A3D6B2B96BE669ACEA0198 /* SwiftUIExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIExtension.swift; path = Sources/SPAlert/Extensions/SwiftUIExtension.swift; sourceTree = "<group>"; };
-		5259BF51D0CB63D3B20EB44163F9B2EC /* SPIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorView.swift; path = Sources/SPIndicator/SPIndicatorView.swift; sourceTree = "<group>"; };
-		52CDFA9C96DF224F6E249CB715DB06D1 /* SPAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.release.xcconfig; sourceTree = "<group>"; };
-		5E76E1A399C233B4E04C3F445954BC4A /* SPAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlert.swift; path = Sources/SPAlert/SPAlert.swift; sourceTree = "<group>"; };
-		5E7961F1AB5C6812F86B6757700A2AEC /* SPIndicatorLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorLayout.swift; path = Sources/SPIndicator/Models/SPIndicatorLayout.swift; sourceTree = "<group>"; };
+		26C987CE9BAE05B2E90071D20943919C /* SPAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.release.xcconfig; sourceTree = "<group>"; };
+		29B2D41D42FA6A52DC9B0F397E887A49 /* SPIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPIndicator.debug.xcconfig; sourceTree = "<group>"; };
+		2D52238049D731D1DEB0B6D4FAB87503 /* SPConfetti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPConfetti.debug.xcconfig; sourceTree = "<group>"; };
+		34A840E2019ADBDFEE39FD6DC01ED590 /* UILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtension.swift; path = Sources/SPAlert/Extensions/UILabelExtension.swift; sourceTree = "<group>"; };
+		34AF105B9A361E014031BFB2B268FC9E /* SPConfetti.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfetti.swift; path = Sources/SPConfetti/SPConfetti.swift; sourceTree = "<group>"; };
+		367721F5D31F0DAE6BE9AB3B334950A6 /* SPIndicatorIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorIconAnimatable.swift; path = Sources/SPIndicator/Protocols/SPIndicatorIconAnimatable.swift; sourceTree = "<group>"; };
+		3AF6990597BEB5C3ED3C16783C9047BB /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconErrorView.swift; path = Sources/SPIndicator/Icons/SPAlertIconErrorView.swift; sourceTree = "<group>"; };
+		407B87E8C431EC40C704F18825D358F9 /* SPIndicatorPresentSide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorPresentSide.swift; path = Sources/SPIndicator/Models/SPIndicatorPresentSide.swift; sourceTree = "<group>"; };
+		599C2589B83F29823C161B8C1A559C68 /* SPConfettiParticle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfettiParticle.swift; path = Sources/SPConfetti/Models/SPConfettiParticle.swift; sourceTree = "<group>"; };
 		5F8FC1A7459EF28031CA2A861E25C0C0 /* Pods-StepByStep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StepByStep-umbrella.h"; sourceTree = "<group>"; };
-		642211705B7A20C0A6312E34E284ABEE /* SPAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertView.swift; path = Sources/SPAlert/SPAlertView.swift; sourceTree = "<group>"; };
+		60155EFF02054C930B8E2E54A9244E53 /* SPConfetti-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPConfetti-umbrella.h"; sourceTree = "<group>"; };
+		60B129B731842F977209F6B5621C33A4 /* SPAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertView.swift; path = Sources/SPAlert/SPAlertView.swift; sourceTree = "<group>"; };
+		6A7ECE090A83610DB93652092EF42634 /* SPIndicatorIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorIconDoneView.swift; path = Sources/SPIndicator/Icons/SPIndicatorIconDoneView.swift; sourceTree = "<group>"; };
 		6ABCB97C7302D9B3998E5A0639F55B3A /* Pods-StepByStep */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StepByStep"; path = Pods_StepByStep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B31F9C35A60171482F1C274075C3A40 /* SPAlertIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDoneView.swift; path = "Sources/SPAlert/Preset Views/SPAlertIconDoneView.swift"; sourceTree = "<group>"; };
-		6B431CA8A447748464CDA0F0AFE830AC /* SPAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPAlert-dummy.m"; sourceTree = "<group>"; };
+		6BF477F2550EA97CBB16EA9CDA14401C /* SPAlertHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertHaptic.swift; path = Sources/SPAlert/Services/SPAlertHaptic.swift; sourceTree = "<group>"; };
 		6C343973099BDFAC1BE2FB3196D2315D /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA892CCE2A5102E2F37CF534CC97D7E /* SPIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorView.swift; path = Sources/SPIndicator/SPIndicatorView.swift; sourceTree = "<group>"; };
+		704B20459EC4DC0E52E60581D6C220BE /* SPAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-umbrella.h"; sourceTree = "<group>"; };
+		7287A31E8081C9A6C5EC5AA9D11DB443 /* SwiftUIExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIExtension.swift; path = Sources/SPAlert/Extensions/SwiftUIExtension.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A23AA3C4E3C1C0D75A2CDC66BF66161 /* Pods-StepByStep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StepByStep-dummy.m"; sourceTree = "<group>"; };
-		7EC67AE2E8E4C5F8B2B69956E054911A /* SPAlertSpinnerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertSpinnerView.swift; path = "Sources/SPAlert/Preset Views/SPAlertSpinnerView.swift"; sourceTree = "<group>"; };
-		8342B0A34C46F5B70BE797582BCBDD8D /* SPAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPAlert-Info.plist"; sourceTree = "<group>"; };
-		84687AC31D5CF863E1C792C0A932D365 /* SPIndicatorHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorHaptic.swift; path = Sources/SPIndicator/Services/SPIndicatorHaptic.swift; sourceTree = "<group>"; };
-		85BEEED6C570024622499365E4BE2806 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/SPIndicator/Extensions/UIColorExtension.swift; sourceTree = "<group>"; };
-		8F07B11635E6ABC3FDCDEA457256E466 /* UILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtension.swift; path = Sources/SPIndicator/Extensions/UILabelExtension.swift; sourceTree = "<group>"; };
-		95D5067DEA2544332628C2463384CD05 /* UILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtension.swift; path = Sources/SPAlert/Extensions/UILabelExtension.swift; sourceTree = "<group>"; };
-		96825A86DD03229F06E87E2BEA162867 /* SPAlertIconPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconPreset.swift; path = Sources/SPAlert/SPAlertIconPreset.swift; sourceTree = "<group>"; };
-		97909B1B2A9113C15CCDD2B3699D9998 /* SPIndicatorIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorIconDoneView.swift; path = Sources/SPIndicator/Icons/SPIndicatorIconDoneView.swift; sourceTree = "<group>"; };
+		7BF72D24FC1FF4FF557E30229BBABEB1 /* SPAlertIconPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconPreset.swift; path = Sources/SPAlert/SPAlertIconPreset.swift; sourceTree = "<group>"; };
+		7E7EF4B4E47653B0B51E2701FA272D05 /* UIFontExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = Sources/SPAlert/Extensions/UIFontExtension.swift; sourceTree = "<group>"; };
+		804E9CAD56D4D0DF2C1A938EA5D9576D /* SPConfetti-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPConfetti-Info.plist"; sourceTree = "<group>"; };
+		894689530EA4A098E992653947CCBACB /* SPAlertSpinnerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertSpinnerView.swift; path = "Sources/SPAlert/Preset Views/SPAlertSpinnerView.swift"; sourceTree = "<group>"; };
+		89FA6DD224F8F61E38474EDE7550B15F /* SPConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfettiView.swift; path = Sources/SPConfetti/SPConfettiView.swift; sourceTree = "<group>"; };
+		8AA99CC01711C70A03E9CA6C3D62B250 /* SPAlertLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertLayout.swift; path = Sources/SPAlert/Models/SPAlertLayout.swift; sourceTree = "<group>"; };
+		8AF6663626868C9224E1A97930320E10 /* SPIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPIndicator.release.xcconfig; sourceTree = "<group>"; };
+		8D67798E7EEEEAF0A84DDE4E35680B22 /* SPIndicator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPIndicator.modulemap; sourceTree = "<group>"; };
+		91BEDE67C1C100758F83298B44BBB2AF /* SPAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.debug.xcconfig; sourceTree = "<group>"; };
+		939EF0043B3D13431AA1187793462076 /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Images.swift; path = Sources/SPConfetti/Services/Images.swift; sourceTree = "<group>"; };
+		954EEA6DDF5BCC028560FDED2893D441 /* SPConfetti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPConfetti.release.xcconfig; sourceTree = "<group>"; };
+		9575693278BC8B858459C63D89BA6E04 /* SPConfetti.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPConfetti.modulemap; sourceTree = "<group>"; };
 		982FC24B102AC1058ED76FDE919EB719 /* Pods-StepByStep-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepByStep-Info.plist"; sourceTree = "<group>"; };
+		99A3A2574E317C8728D0DF37846F762E /* SPConfetti-SPConfetti */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SPConfetti-SPConfetti"; path = SPConfetti.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC0979F61C7488839BB07BB5C2BF47F /* SPIndicatorHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorHaptic.swift; path = Sources/SPIndicator/Services/SPIndicatorHaptic.swift; sourceTree = "<group>"; };
+		9D6E815B80257AB978AD0C0BDBED0844 /* SPConfettiAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfettiAnimation.swift; path = Sources/SPConfetti/Models/SPConfettiAnimation.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A128EA863FA1F30048BBB1ED686E2F04 /* SPIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicator.swift; path = Sources/SPIndicator/SPIndicator.swift; sourceTree = "<group>"; };
+		9FB442493C2080EBDB2FD925E66E485B /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/SPIndicator/Extensions/UIColorExtension.swift; sourceTree = "<group>"; };
+		A4BE23D7A0D7DF1CC30A474F1A1AF358 /* UIFontExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = Sources/SPIndicator/Extensions/UIFontExtension.swift; sourceTree = "<group>"; };
+		A530EEACD770796088EB2BC48DD674B8 /* SPAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-prefix.pch"; sourceTree = "<group>"; };
 		A7AD8018E9EA630B4DD15261EB4DE10C /* Pods-StepByStep-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StepByStep-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B1A42DA033971A726F866086031B185E /* SPIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPIndicator.release.xcconfig; sourceTree = "<group>"; };
+		AD8B590060672D93A06A1A94467F9F9B /* SPIndicatorIconPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorIconPreset.swift; path = Sources/SPIndicator/SPIndicatorIconPreset.swift; sourceTree = "<group>"; };
 		B890FA2487B936628C9FA4131C5C1EBF /* Pods-StepByStep-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StepByStep-frameworks.sh"; sourceTree = "<group>"; };
+		BC031F21FEE2302FFB6DB20DED8E5505 /* SPConfettiModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfettiModifier.swift; path = Sources/SPConfetti/SwiftUI/SPConfettiModifier.swift; sourceTree = "<group>"; };
+		BD51A57317F907C86020B86908757A2C /* SPAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPAlert.modulemap; sourceTree = "<group>"; };
+		BD605B5BFCF914ADED87C51BB66605F8 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/SPConfetti/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		BD7489B8B86086BDE12A82FD52F2799F /* SPAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPAlert-Info.plist"; sourceTree = "<group>"; };
 		BE629661A28417489F63DBC74196BBD6 /* SPAlert */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPAlert; path = SPAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C48C595C6F1AD0E453FF77B47F8CBBEE /* SPAlertIconHeartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconHeartView.swift; path = "Sources/SPAlert/Preset Views/SPAlertIconHeartView.swift"; sourceTree = "<group>"; };
-		C701AFFE32224EEC8589B14EDEA153F6 /* SPAlertHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertHaptic.swift; path = Sources/SPAlert/Services/SPAlertHaptic.swift; sourceTree = "<group>"; };
-		C77C69DB674AC6C4359331A9B4E6F0B0 /* SPIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPIndicator.debug.xcconfig; sourceTree = "<group>"; };
+		BF75CD2322F98D01C0B235F30D98EA90 /* SPAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPAlert-dummy.m"; sourceTree = "<group>"; };
+		C1E2574DF124F1F78DBB2A6925ECD04C /* SPConfetti */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPConfetti; path = SPConfetti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CAF5205BBF3521A6232DD8908D3DCF /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconErrorView.swift; path = "Sources/SPAlert/Preset Views/SPAlertIconErrorView.swift"; sourceTree = "<group>"; };
 		D18AE9789C85C390BDD7C3294266487D /* Pods-StepByStep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepByStep.release.xcconfig"; sourceTree = "<group>"; };
-		D3CA22F2130A0952F770F724B654C255 /* SPIndicatorIconPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorIconPreset.swift; path = Sources/SPIndicator/SPIndicatorIconPreset.swift; sourceTree = "<group>"; };
-		D70C0601DCEC37FB92DB44828E81F806 /* UIFontExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = Sources/SPAlert/Extensions/UIFontExtension.swift; sourceTree = "<group>"; };
-		DA1E90C97E10960A0556DB1E2BD976A6 /* SPIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPIndicator-Info.plist"; sourceTree = "<group>"; };
-		DC6C5BD4CFFF4B6C91DC44E6B4D3C56E /* SPAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-umbrella.h"; sourceTree = "<group>"; };
-		EB89969163B7EDBCA6FF8A001FF839A4 /* SPIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPIndicator-prefix.pch"; sourceTree = "<group>"; };
-		EDA73503B1A2FD26F0B152DADE1F0DE3 /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconErrorView.swift; path = Sources/SPIndicator/Icons/SPAlertIconErrorView.swift; sourceTree = "<group>"; };
-		EF137855E1656F2BFDB570ED88B6EF81 /* SPAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPAlert.modulemap; sourceTree = "<group>"; };
-		F062E51EE42B424669A35CE976E47653 /* UIFontExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = Sources/SPIndicator/Extensions/UIFontExtension.swift; sourceTree = "<group>"; };
+		D1E27BEE2DBDA2A35ABFB4133529D185 /* ResourceBundle-SPConfetti-SPConfetti-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SPConfetti-SPConfetti-Info.plist"; sourceTree = "<group>"; };
+		D61C0471C693C793FED1B5F982D00ADB /* SPIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPIndicator-Info.plist"; sourceTree = "<group>"; };
+		DBD693C9F154B8588D7028FB6918D217 /* SPConfettiDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfettiDelegate.swift; path = Sources/SPConfetti/SPConfettiDelegate.swift; sourceTree = "<group>"; };
+		DDD133C78DDDB9F4CE598688141626DA /* SPIndicatorLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicatorLayout.swift; path = Sources/SPIndicator/Models/SPIndicatorLayout.swift; sourceTree = "<group>"; };
+		E3643679526A661CA0D0FFBF6F2C04E1 /* SPIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPIndicator-prefix.pch"; sourceTree = "<group>"; };
+		E6256A392A52B104298948AC303153BF /* SPAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlert.swift; path = Sources/SPAlert/SPAlert.swift; sourceTree = "<group>"; };
+		E6B442BBCD0D41E6DC3714C67734A1E6 /* SPAlertIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDoneView.swift; path = "Sources/SPAlert/Preset Views/SPAlertIconDoneView.swift"; sourceTree = "<group>"; };
+		ECC510F508A8C5DA88FDD54FAD1ED6DC /* SPIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPIndicator-umbrella.h"; sourceTree = "<group>"; };
+		F067D32DD630384CA0C863CF63E4A33C /* SPConfettiConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfettiConfiguration.swift; path = Sources/SPConfetti/Models/SPConfettiConfiguration.swift; sourceTree = "<group>"; };
 		F41E1AC746DB4596868D1A4367CF9ED7 /* Pods-StepByStep.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StepByStep.modulemap"; sourceTree = "<group>"; };
+		FC49017D9468E6D1B46DD07C1DE27D00 /* UILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtension.swift; path = Sources/SPIndicator/Extensions/UILabelExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CE5E378895165EB5AF921984BD4E200 /* Frameworks */ = {
+		15F4123EA1763A87BD949B09A411D9DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD247261A95AE8838E6FB168B7428FE /* Foundation.framework in Frameworks */,
+				2A3239C93DC17C204988E970786DB038 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +185,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		976D65FD37E63B399659A0F4DEE12789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E6945B9ACB21845CD3C7ED23481D17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B56F5C407909DA29D5C782AA2EEFC140 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,9 +201,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F53DCA2FA3D090C7B39B173C6D5DCF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45F5DE73391529A09A2AC3C8C78E3374 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D67798E7EEEEAF0A84DDE4E35680B22 /* SPIndicator.modulemap */,
+				13912B851DE98BBCFA33D2AECFA63234 /* SPIndicator-dummy.m */,
+				D61C0471C693C793FED1B5F982D00ADB /* SPIndicator-Info.plist */,
+				E3643679526A661CA0D0FFBF6F2C04E1 /* SPIndicator-prefix.pch */,
+				ECC510F508A8C5DA88FDD54FAD1ED6DC /* SPIndicator-umbrella.h */,
+				29B2D41D42FA6A52DC9B0F397E887A49 /* SPIndicator.debug.xcconfig */,
+				8AF6663626868C9224E1A97930320E10 /* SPIndicator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPIndicator";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,41 +234,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D3FF3B88B8AD802F3CAEB379012D1CF /* SPAlert */ = {
+		5CBD34651978FAFE5600DE0A6BF925F5 /* SPAlert */ = {
 			isa = PBXGroup;
 			children = (
-				5E76E1A399C233B4E04C3F445954BC4A /* SPAlert.swift */,
-				C701AFFE32224EEC8589B14EDEA153F6 /* SPAlertHaptic.swift */,
-				1DEAE88CEB1696D2E98D4737E5617C24 /* SPAlertIconAnimatable.swift */,
-				6B31F9C35A60171482F1C274075C3A40 /* SPAlertIconDoneView.swift */,
-				1EEF0A030CD79E479DC9C5D1A8A40D81 /* SPAlertIconErrorView.swift */,
-				C48C595C6F1AD0E453FF77B47F8CBBEE /* SPAlertIconHeartView.swift */,
-				96825A86DD03229F06E87E2BEA162867 /* SPAlertIconPreset.swift */,
-				3C4550B196FE9C1DF18A512CC513D400 /* SPAlertLayout.swift */,
-				7EC67AE2E8E4C5F8B2B69956E054911A /* SPAlertSpinnerView.swift */,
-				642211705B7A20C0A6312E34E284ABEE /* SPAlertView.swift */,
-				513C62C0F9A3D6B2B96BE669ACEA0198 /* SwiftUIExtension.swift */,
-				D70C0601DCEC37FB92DB44828E81F806 /* UIFontExtension.swift */,
-				95D5067DEA2544332628C2463384CD05 /* UILabelExtension.swift */,
-				A1CFB8FEAEE65DC8D0B81259DEE0850E /* Support Files */,
+				E6256A392A52B104298948AC303153BF /* SPAlert.swift */,
+				6BF477F2550EA97CBB16EA9CDA14401C /* SPAlertHaptic.swift */,
+				1E8BD409FAAAA84A192188A340FD644A /* SPAlertIconAnimatable.swift */,
+				E6B442BBCD0D41E6DC3714C67734A1E6 /* SPAlertIconDoneView.swift */,
+				C4CAF5205BBF3521A6232DD8908D3DCF /* SPAlertIconErrorView.swift */,
+				23765000DCE39DC7DD9B94CFBDCE04C7 /* SPAlertIconHeartView.swift */,
+				7BF72D24FC1FF4FF557E30229BBABEB1 /* SPAlertIconPreset.swift */,
+				8AA99CC01711C70A03E9CA6C3D62B250 /* SPAlertLayout.swift */,
+				894689530EA4A098E992653947CCBACB /* SPAlertSpinnerView.swift */,
+				60B129B731842F977209F6B5621C33A4 /* SPAlertView.swift */,
+				7287A31E8081C9A6C5EC5AA9D11DB443 /* SwiftUIExtension.swift */,
+				7E7EF4B4E47653B0B51E2701FA272D05 /* UIFontExtension.swift */,
+				34A840E2019ADBDFEE39FD6DC01ED590 /* UILabelExtension.swift */,
+				A4B911D9EFE77F13AED3EC4977EFD9D4 /* Support Files */,
 			);
 			name = SPAlert;
 			path = SPAlert;
 			sourceTree = "<group>";
 		};
-		8ADCD0D38B5E51E8E3EF369FF9038DD5 /* Support Files */ = {
+		7142CC2A400238321453764D6E5293E3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				411697162187466A0D19D2DB38ADCD64 /* SPIndicator.modulemap */,
-				1C4A58F1D8511E55DA1A094689C97772 /* SPIndicator-dummy.m */,
-				DA1E90C97E10960A0556DB1E2BD976A6 /* SPIndicator-Info.plist */,
-				EB89969163B7EDBCA6FF8A001FF839A4 /* SPIndicator-prefix.pch */,
-				04E1802414918B0A0EFB9F6ECE467EEC /* SPIndicator-umbrella.h */,
-				C77C69DB674AC6C4359331A9B4E6F0B0 /* SPIndicator.debug.xcconfig */,
-				B1A42DA033971A726F866086031B185E /* SPIndicator.release.xcconfig */,
+				D1E27BEE2DBDA2A35ABFB4133529D185 /* ResourceBundle-SPConfetti-SPConfetti-Info.plist */,
+				9575693278BC8B858459C63D89BA6E04 /* SPConfetti.modulemap */,
+				1DE2FD5B1D1258F84EF331D2C9BEC796 /* SPConfetti-dummy.m */,
+				804E9CAD56D4D0DF2C1A938EA5D9576D /* SPConfetti-Info.plist */,
+				1561E6DB9CB98A7F82281E8E40A70738 /* SPConfetti-prefix.pch */,
+				60155EFF02054C930B8E2E54A9244E53 /* SPConfetti-umbrella.h */,
+				2D52238049D731D1DEB0B6D4FAB87503 /* SPConfetti.debug.xcconfig */,
+				954EEA6DDF5BCC028560FDED2893D441 /* SPConfetti.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SPIndicator";
+			path = "../Target Support Files/SPConfetti";
+			sourceTree = "<group>";
+		};
+		751A945298BD186B605A9043926C81F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD605B5BFCF914ADED87C51BB66605F8 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		82187871BA6683D1839B40004EE59E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCB97C7302D9B3998E5A0639F55B3A /* Pods-StepByStep */,
+				BE629661A28417489F63DBC74196BBD6 /* SPAlert */,
+				C1E2574DF124F1F78DBB2A6925ECD04C /* SPConfetti */,
+				99A3A2574E317C8728D0DF37846F762E /* SPConfetti-SPConfetti */,
+				1610EA30A41A8E40274DA799098CF8BB /* SPIndicator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D27B3BF8F43B2FB7231E2CDBF2CAF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CBD34651978FAFE5600DE0A6BF925F5 /* SPAlert */,
+				DBAC421B0B1FD6D087095E6EF5D44744 /* SPConfetti */,
+				A08BAAE6C6474C69A69869B7E0537EC4 /* SPIndicator */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		91491CEE8BD060BF54E151F7E118A396 /* Pods-StepByStep */ = {
@@ -206,16 +319,37 @@
 			path = "Target Support Files/Pods-StepByStep";
 			sourceTree = "<group>";
 		};
-		A1CFB8FEAEE65DC8D0B81259DEE0850E /* Support Files */ = {
+		A08BAAE6C6474C69A69869B7E0537EC4 /* SPIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				EF137855E1656F2BFDB570ED88B6EF81 /* SPAlert.modulemap */,
-				6B431CA8A447748464CDA0F0AFE830AC /* SPAlert-dummy.m */,
-				8342B0A34C46F5B70BE797582BCBDD8D /* SPAlert-Info.plist */,
-				278B11FCE24FDD8870E7E1A5EF7BB161 /* SPAlert-prefix.pch */,
-				DC6C5BD4CFFF4B6C91DC44E6B4D3C56E /* SPAlert-umbrella.h */,
-				2506ADAC2212A63CDE76C57553279EE7 /* SPAlert.debug.xcconfig */,
-				52CDFA9C96DF224F6E249CB715DB06D1 /* SPAlert.release.xcconfig */,
+				3AF6990597BEB5C3ED3C16783C9047BB /* SPAlertIconErrorView.swift */,
+				152DC64068442BEA3CACD7825F59BB86 /* SPIndicator.swift */,
+				9BC0979F61C7488839BB07BB5C2BF47F /* SPIndicatorHaptic.swift */,
+				367721F5D31F0DAE6BE9AB3B334950A6 /* SPIndicatorIconAnimatable.swift */,
+				6A7ECE090A83610DB93652092EF42634 /* SPIndicatorIconDoneView.swift */,
+				AD8B590060672D93A06A1A94467F9F9B /* SPIndicatorIconPreset.swift */,
+				DDD133C78DDDB9F4CE598688141626DA /* SPIndicatorLayout.swift */,
+				407B87E8C431EC40C704F18825D358F9 /* SPIndicatorPresentSide.swift */,
+				6FA892CCE2A5102E2F37CF534CC97D7E /* SPIndicatorView.swift */,
+				9FB442493C2080EBDB2FD925E66E485B /* UIColorExtension.swift */,
+				A4BE23D7A0D7DF1CC30A474F1A1AF358 /* UIFontExtension.swift */,
+				FC49017D9468E6D1B46DD07C1DE27D00 /* UILabelExtension.swift */,
+				45F5DE73391529A09A2AC3C8C78E3374 /* Support Files */,
+			);
+			name = SPIndicator;
+			path = SPIndicator;
+			sourceTree = "<group>";
+		};
+		A4B911D9EFE77F13AED3EC4977EFD9D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD51A57317F907C86020B86908757A2C /* SPAlert.modulemap */,
+				BF75CD2322F98D01C0B235F30D98EA90 /* SPAlert-dummy.m */,
+				BD7489B8B86086BDE12A82FD52F2799F /* SPAlert-Info.plist */,
+				A530EEACD770796088EB2BC48DD674B8 /* SPAlert-prefix.pch */,
+				704B20459EC4DC0E52E60581D6C220BE /* SPAlert-umbrella.h */,
+				91BEDE67C1C100758F83298B44BBB2AF /* SPAlert.debug.xcconfig */,
+				26C987CE9BAE05B2E90071D20943919C /* SPAlert.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SPAlert";
@@ -234,8 +368,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E1F4A0CD131B91C99377FD687B1A271A /* Pods */,
-				F22C16960C9D78A04ED3795C1C1C797E /* Products */,
+				90D27B3BF8F43B2FB7231E2CDBF2CAF5 /* Pods */,
+				82187871BA6683D1839B40004EE59E5F /* Products */,
 				C19DF797CC4AEDFE57A9D73A6AA74D31 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -248,44 +382,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1F4A0CD131B91C99377FD687B1A271A /* Pods */ = {
+		DBAC421B0B1FD6D087095E6EF5D44744 /* SPConfetti */ = {
 			isa = PBXGroup;
 			children = (
-				5D3FF3B88B8AD802F3CAEB379012D1CF /* SPAlert */,
-				E4CB34321954F4A6B93F85185958589C /* SPIndicator */,
+				01A99D76A33DB60C60C5BA347E66BB70 /* Delay.swift */,
+				939EF0043B3D13431AA1187793462076 /* Images.swift */,
+				34AF105B9A361E014031BFB2B268FC9E /* SPConfetti.swift */,
+				9D6E815B80257AB978AD0C0BDBED0844 /* SPConfettiAnimation.swift */,
+				F067D32DD630384CA0C863CF63E4A33C /* SPConfettiConfiguration.swift */,
+				DBD693C9F154B8588D7028FB6918D217 /* SPConfettiDelegate.swift */,
+				BC031F21FEE2302FFB6DB20DED8E5505 /* SPConfettiModifier.swift */,
+				599C2589B83F29823C161B8C1A559C68 /* SPConfettiParticle.swift */,
+				026E61572CC31B16A8238C8B781A20C8 /* SPConfettiParticlesConfig.swift */,
+				89FA6DD224F8F61E38474EDE7550B15F /* SPConfettiView.swift */,
+				0EDDB0FEFCDFD800905AA04E2676B0BA /* UIImageExtension.swift */,
+				751A945298BD186B605A9043926C81F2 /* Resources */,
+				7142CC2A400238321453764D6E5293E3 /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E4CB34321954F4A6B93F85185958589C /* SPIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				EDA73503B1A2FD26F0B152DADE1F0DE3 /* SPAlertIconErrorView.swift */,
-				A128EA863FA1F30048BBB1ED686E2F04 /* SPIndicator.swift */,
-				84687AC31D5CF863E1C792C0A932D365 /* SPIndicatorHaptic.swift */,
-				278233D343FDE23B7BF01971C7E46646 /* SPIndicatorIconAnimatable.swift */,
-				97909B1B2A9113C15CCDD2B3699D9998 /* SPIndicatorIconDoneView.swift */,
-				D3CA22F2130A0952F770F724B654C255 /* SPIndicatorIconPreset.swift */,
-				5E7961F1AB5C6812F86B6757700A2AEC /* SPIndicatorLayout.swift */,
-				497B38ADE8C25F6C62C92170A65E1180 /* SPIndicatorPresentSide.swift */,
-				5259BF51D0CB63D3B20EB44163F9B2EC /* SPIndicatorView.swift */,
-				85BEEED6C570024622499365E4BE2806 /* UIColorExtension.swift */,
-				F062E51EE42B424669A35CE976E47653 /* UIFontExtension.swift */,
-				8F07B11635E6ABC3FDCDEA457256E466 /* UILabelExtension.swift */,
-				8ADCD0D38B5E51E8E3EF369FF9038DD5 /* Support Files */,
-			);
-			name = SPIndicator;
-			path = SPIndicator;
-			sourceTree = "<group>";
-		};
-		F22C16960C9D78A04ED3795C1C1C797E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6ABCB97C7302D9B3998E5A0639F55B3A /* Pods-StepByStep */,
-				BE629661A28417489F63DBC74196BBD6 /* SPAlert */,
-				1610EA30A41A8E40274DA799098CF8BB /* SPIndicator */,
-			);
-			name = Products;
+			name = SPConfetti;
+			path = SPConfetti;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,11 +414,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		477EBDE26242C085277CB7099471F2C8 /* Headers */ = {
+		7D9895331CEC3DD92585699BD3DE4466 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A60FA78D7FC387C44DD688F04AC90085 /* Pods-StepByStep-umbrella.h in Headers */,
+				465CE43BFAB89D515694DD5CA4D21DD7 /* Pods-StepByStep-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABCEA9E725C77BD7380FFFE03571154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B9ED9971CD59E8980FBCFA230985F2 /* SPConfetti-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +459,42 @@
 			productReference = 1610EA30A41A8E40274DA799098CF8BB /* SPIndicator */;
 			productType = "com.apple.product-type.framework";
 		};
+		76B626D180E812DE24D52B50574DB8B2 /* SPConfetti-SPConfetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FD3D063D3DBC587A29BA369CA67C2C /* Build configuration list for PBXNativeTarget "SPConfetti-SPConfetti" */;
+			buildPhases = (
+				45D4453A107D0114CB476C67CD310D76 /* Sources */,
+				F53DCA2FA3D090C7B39B173C6D5DCF5F /* Frameworks */,
+				FAC1D7AC971634EBE2CAAD89375F629B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPConfetti-SPConfetti";
+			productName = SPConfetti;
+			productReference = 99A3A2574E317C8728D0DF37846F762E /* SPConfetti-SPConfetti */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A4D94D19F3035695F3446D3D3EEAC6EA /* SPConfetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA2E8ECA249F7D8777C16ED2A00F982 /* Build configuration list for PBXNativeTarget "SPConfetti" */;
+			buildPhases = (
+				8ABCEA9E725C77BD7380FFFE03571154 /* Headers */,
+				1E3A5CCC136F04C856B1F84D5C909602 /* Sources */,
+				15F4123EA1763A87BD949B09A411D9DE /* Frameworks */,
+				3C3D283E8FA94686BF731BE3C60E83AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF923757082773FBFADC4AC7E67C79B /* PBXTargetDependency */,
+			);
+			name = SPConfetti;
+			productName = SPConfetti;
+			productReference = C1E2574DF124F1F78DBB2A6925ECD04C /* SPConfetti */;
+			productType = "com.apple.product-type.framework";
+		};
 		B4652B2924FE3B941944F77DA8477ABD /* SPAlert */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABCDA14F249F7A06A78F365DC2B21813 /* Build configuration list for PBXNativeTarget "SPAlert" */;
@@ -356,18 +515,19 @@
 		};
 		D2ED8EA2C2C3049EBDC2CA8F346BFF8C /* Pods-StepByStep */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDB68883C45AF5135AB575FED41FE3D6 /* Build configuration list for PBXNativeTarget "Pods-StepByStep" */;
+			buildConfigurationList = 2F6DFCC00E595D9A7BAE5728AFDE2D26 /* Build configuration list for PBXNativeTarget "Pods-StepByStep" */;
 			buildPhases = (
-				477EBDE26242C085277CB7099471F2C8 /* Headers */,
-				8D9705BDA3A331E092DD7B0B58B23AAF /* Sources */,
-				5CE5E378895165EB5AF921984BD4E200 /* Frameworks */,
-				723A50763C4BD85C9ED51BD62017E265 /* Resources */,
+				7D9895331CEC3DD92585699BD3DE4466 /* Headers */,
+				77B0F7E16705A0F62EDE8B06BD3F36AA /* Sources */,
+				976D65FD37E63B399659A0F4DEE12789 /* Frameworks */,
+				91139210EB5FD6EBD7DD12AC9831F204 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87597667CC927FAB3AF6845BA5978F5F /* PBXTargetDependency */,
-				3C196CC9B7EDA139CBF96A844DDAF0E7 /* PBXTargetDependency */,
+				4A3367BC0C4BF495F587243D6B0B27A7 /* PBXTargetDependency */,
+				048E025C912D8381476E3CEC4CBE94A8 /* PBXTargetDependency */,
+				CE47FA3591954F921ED5FA643DAE89BF /* PBXTargetDependency */,
 			);
 			name = "Pods-StepByStep";
 			productName = Pods_StepByStep;
@@ -392,12 +552,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F22C16960C9D78A04ED3795C1C1C797E /* Products */;
+			productRefGroup = 82187871BA6683D1839B40004EE59E5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D2ED8EA2C2C3049EBDC2CA8F346BFF8C /* Pods-StepByStep */,
 				B4652B2924FE3B941944F77DA8477ABD /* SPAlert */,
+				A4D94D19F3035695F3446D3D3EEAC6EA /* SPConfetti */,
+				76B626D180E812DE24D52B50574DB8B2 /* SPConfetti-SPConfetti */,
 				765CC6276452C8332186E7325B6370CD /* SPIndicator */,
 			);
 		};
@@ -411,7 +573,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		723A50763C4BD85C9ED51BD62017E265 /* Resources */ = {
+		3C3D283E8FA94686BF731BE3C60E83AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184BE0DA51FB7A572B2259A32718D3B7 /* SPConfetti-SPConfetti in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91139210EB5FD6EBD7DD12AC9831F204 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,9 +595,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAC1D7AC971634EBE2CAAD89375F629B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35232C39BF81C67AC0775C1AB988CD98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1E3A5CCC136F04C856B1F84D5C909602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A9BBD12AD9BCF575E62455CDB6DF41 /* Delay.swift in Sources */,
+				540536206B873DE4F13CC417BA595582 /* Images.swift in Sources */,
+				15C459E9A55ECF833D9C6AA5E3738CDD /* SPConfetti.swift in Sources */,
+				7E9704403F3DA989ED5C46D7355246A7 /* SPConfetti-dummy.m in Sources */,
+				B3EBB0F30D49C176DB6689A8EDF577C7 /* SPConfettiAnimation.swift in Sources */,
+				12925F95DA56834EC0324EBBF2160938 /* SPConfettiConfiguration.swift in Sources */,
+				C9DADCD595893BA648B4CA0966E5D54D /* SPConfettiDelegate.swift in Sources */,
+				C7D3218433743950DEC74C1BBF038E01 /* SPConfettiModifier.swift in Sources */,
+				1C079201D40FA9FBE30ED65144E689B3 /* SPConfettiParticle.swift in Sources */,
+				D08AEE4517A1049CDA368885DB582E8D /* SPConfettiParticlesConfig.swift in Sources */,
+				30C575BB9548501531DC56F3E372EC86 /* SPConfettiView.swift in Sources */,
+				9FDBD3E359CE1AB8AE0C828C863F2D8E /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D4453A107D0114CB476C67CD310D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5579ECD4BA15B52930C91FB32804FC2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,11 +653,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D9705BDA3A331E092DD7B0B58B23AAF /* Sources */ = {
+		77B0F7E16705A0F62EDE8B06BD3F36AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B1B02D8274C9A8D7D10BD07A14BCBC /* Pods-StepByStep-dummy.m in Sources */,
+				0D438BBB33D000831515518CCFCE5DA4 /* Pods-StepByStep-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,24 +684,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C196CC9B7EDA139CBF96A844DDAF0E7 /* PBXTargetDependency */ = {
+		048E025C912D8381476E3CEC4CBE94A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SPIndicator;
-			target = 765CC6276452C8332186E7325B6370CD /* SPIndicator */;
-			targetProxy = E24562635F6D6E76108F348885155A8A /* PBXContainerItemProxy */;
+			name = SPConfetti;
+			target = A4D94D19F3035695F3446D3D3EEAC6EA /* SPConfetti */;
+			targetProxy = 3DFF6957430D27C610991439490B2888 /* PBXContainerItemProxy */;
 		};
-		87597667CC927FAB3AF6845BA5978F5F /* PBXTargetDependency */ = {
+		4A3367BC0C4BF495F587243D6B0B27A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SPAlert;
 			target = B4652B2924FE3B941944F77DA8477ABD /* SPAlert */;
-			targetProxy = C0A8628A05741DC61C0F72B18FFFFCCF /* PBXContainerItemProxy */;
+			targetProxy = 4E15E2FC9C56A8C831EB9896A227B0DC /* PBXContainerItemProxy */;
+		};
+		AAF923757082773FBFADC4AC7E67C79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SPConfetti-SPConfetti";
+			target = 76B626D180E812DE24D52B50574DB8B2 /* SPConfetti-SPConfetti */;
+			targetProxy = 3FD9FE89D97EAD3C9A4AC6DB6E54FD5C /* PBXContainerItemProxy */;
+		};
+		CE47FA3591954F921ED5FA643DAE89BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPIndicator;
+			target = 765CC6276452C8332186E7325B6370CD /* SPIndicator */;
+			targetProxy = 2B3BA35400694140A397A248132B38C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		131F3EB2C7B594FF3D45A25311850BD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2506ADAC2212A63CDE76C57553279EE7 /* SPAlert.debug.xcconfig */;
+			baseConfigurationReference = 91BEDE67C1C100758F83298B44BBB2AF /* SPAlert.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -527,6 +743,56 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2ED6C0D9EDF3C65AD1098D2FB636AB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D52238049D731D1DEB0B6D4FAB87503 /* SPConfetti.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPConfetti/SPConfetti-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPConfetti/SPConfetti-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPConfetti/SPConfetti.modulemap";
+				PRODUCT_MODULE_NAME = SPConfetti;
+				PRODUCT_NAME = SPConfetti;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6591B0B57207953913B1007465806014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D52238049D731D1DEB0B6D4FAB87503 /* SPConfetti.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SPConfetti";
+				IBSC_MODULE = SPConfetti;
+				INFOPLIST_FILE = "Target Support Files/SPConfetti/ResourceBundle-SPConfetti-SPConfetti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = SPConfetti;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -592,79 +858,7 @@
 			};
 			name = Release;
 		};
-		AEAD847605CC0338D68073B51F8A85AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C343973099BDFAC1BE2FB3196D2315D /* Pods-StepByStep.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StepByStep/Pods-StepByStep-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StepByStep/Pods-StepByStep.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B822BD023F2EB01D01FD372F1529001A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C77C69DB674AC6C4359331A9B4E6F0B0 /* SPIndicator.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SPIndicator/SPIndicator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPIndicator/SPIndicator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SPIndicator/SPIndicator.modulemap";
-				PRODUCT_MODULE_NAME = SPIndicator;
-				PRODUCT_NAME = SPIndicator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D4563620A2A2B76EE4C800408DDB71B5 /* Release */ = {
+		A938AC000F7B15B95A5F862C4F207F05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D18AE9789C85C390BDD7C3294266487D /* Pods-StepByStep.release.xcconfig */;
 			buildSettings = {
@@ -702,9 +896,97 @@
 			};
 			name = Release;
 		};
+		B822BD023F2EB01D01FD372F1529001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B2D41D42FA6A52DC9B0F397E887A49 /* SPIndicator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPIndicator/SPIndicator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPIndicator/SPIndicator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPIndicator/SPIndicator.modulemap";
+				PRODUCT_MODULE_NAME = SPIndicator;
+				PRODUCT_NAME = SPIndicator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4409F64A5B3BA89742D4C37A8B2AA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954EEA6DDF5BCC028560FDED2893D441 /* SPConfetti.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SPConfetti";
+				IBSC_MODULE = SPConfetti;
+				INFOPLIST_FILE = "Target Support Files/SPConfetti/ResourceBundle-SPConfetti-SPConfetti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = SPConfetti;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D340B4018527F8ED0639B260A2073478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C343973099BDFAC1BE2FB3196D2315D /* Pods-StepByStep.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StepByStep/Pods-StepByStep-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StepByStep/Pods-StepByStep.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DD22B53C2BD3CE235465BE41DB4DA0A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1A42DA033971A726F866086031B185E /* SPIndicator.release.xcconfig */;
+			baseConfigurationReference = 8AF6663626868C9224E1A97930320E10 /* SPIndicator.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -740,7 +1022,7 @@
 		};
 		EAB0080677E332FD6B11E45CF8027040 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52CDFA9C96DF224F6E249CB715DB06D1 /* SPAlert.release.xcconfig */;
+			baseConfigurationReference = 26C987CE9BAE05B2E90071D20943919C /* SPAlert.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -840,14 +1122,76 @@
 			};
 			name = Debug;
 		};
+		F39B106B0FA067D4820ABFFAC0448B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954EEA6DDF5BCC028560FDED2893D441 /* SPConfetti.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPConfetti/SPConfetti-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPConfetti/SPConfetti-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPConfetti/SPConfetti.modulemap";
+				PRODUCT_MODULE_NAME = SPConfetti;
+				PRODUCT_NAME = SPConfetti;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F6DFCC00E595D9A7BAE5728AFDE2D26 /* Build configuration list for PBXNativeTarget "Pods-StepByStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D340B4018527F8ED0639B260A2073478 /* Debug */,
+				A938AC000F7B15B95A5F862C4F207F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB7376794D773187B6D048F04E70CE39 /* Debug */,
 				A445D08D964FE9C6C05CEE2B0A948973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FD3D063D3DBC587A29BA369CA67C2C /* Build configuration list for PBXNativeTarget "SPConfetti-SPConfetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6591B0B57207953913B1007465806014 /* Debug */,
+				C4409F64A5B3BA89742D4C37A8B2AA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA2E8ECA249F7D8777C16ED2A00F982 /* Build configuration list for PBXNativeTarget "SPConfetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED6C0D9EDF3C65AD1098D2FB636AB13 /* Debug */,
+				F39B106B0FA067D4820ABFFAC0448B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -866,15 +1210,6 @@
 			buildConfigurations = (
 				B822BD023F2EB01D01FD372F1529001A /* Debug */,
 				DD22B53C2BD3CE235465BE41DB4DA0A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BDB68883C45AF5135AB575FED41FE3D6 /* Build configuration list for PBXNativeTarget "Pods-StepByStep" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEAD847605CC0338D68073B51F8A85AE /* Debug */,
-				D4563620A2A2B76EE4C800408DDB71B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

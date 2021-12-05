@@ -7,6 +7,7 @@ target 'StepByStep' do
   
   pod 'SPAlert'
   pod 'SPIndicator'
+  pod 'SPConfetti'
   # Pods for StepByStep
 
 end
