@@ -56,7 +56,6 @@
 				E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */,
 				16D34DB55D747806E98B4078 /* Pods-StepByStep.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -341,6 +340,7 @@
 				DEVELOPMENT_TEAM = Z8D49D4M8N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StepByStep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +362,7 @@
 				DEVELOPMENT_TEAM = Z8D49D4M8N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StepByStep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
