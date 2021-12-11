@@ -14,6 +14,16 @@
 		C190C844274BB61F00957C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C843274BB61F00957C69 /* Assets.xcassets */; };
 		C190C847274BB61F00957C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190C846274BB61F00957C69 /* Preview Assets.xcassets */; };
 		C190C84A274BB61F00957C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190C848274BB61F00957C69 /* LaunchScreen.storyboard */; };
+		C1DBE6192764BCF500EAB216 /* TriangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE6182764BCF500EAB216 /* TriangleShape.swift */; };
+		C1DBE61B2764BD7E00EAB216 /* TriangleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE61A2764BD7E00EAB216 /* TriangleLoader.swift */; };
+		C1DBE61D2764BDBD00EAB216 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE61C2764BDBD00EAB216 /* ColorExtensions.swift */; };
+		C1DBE61F2764E1C700EAB216 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE61E2764E1C700EAB216 /* ArcShape.swift */; };
+		C1DBE6212764E1DD00EAB216 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE6202764E1DD00EAB216 /* ArcView.swift */; };
+		C1DBE6232764E20400EAB216 /* CircleEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE6222764E20400EAB216 /* CircleEmitter.swift */; };
+		C1DBE6252764E22900EAB216 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE6242764E22900EAB216 /* Circles.swift */; };
+		C1DBE6272764E24600EAB216 /* WifiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE6262764E24600EAB216 /* WifiView.swift */; };
+		C1DBE6292764E6C200EAB216 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE6282764E6C200EAB216 /* ExpandingView.swift */; };
+		C1DBE62B2764E6F000EAB216 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBE62A2764E6F000EAB216 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +37,16 @@
 		C190C846274BB61F00957C69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C190C849274BB61F00957C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C190C84B274BB61F00957C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DBE6182764BCF500EAB216 /* TriangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleShape.swift; sourceTree = "<group>"; };
+		C1DBE61A2764BD7E00EAB216 /* TriangleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleLoader.swift; sourceTree = "<group>"; };
+		C1DBE61C2764BDBD00EAB216 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		C1DBE61E2764E1C700EAB216 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		C1DBE6202764E1DD00EAB216 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		C1DBE6222764E20400EAB216 /* CircleEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEmitter.swift; sourceTree = "<group>"; };
+		C1DBE6242764E22900EAB216 /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		C1DBE6262764E24600EAB216 /* WifiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiView.swift; sourceTree = "<group>"; };
+		C1DBE6282764E6C200EAB216 /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
+		C1DBE62A2764E6F000EAB216 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		E3311E11CCB32BBACB6DC4AC /* Pods-StepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepByStep.debug.xcconfig"; path = "Target Support Files/Pods-StepByStep/Pods-StepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +107,16 @@
 				C190C848274BB61F00957C69 /* LaunchScreen.storyboard */,
 				C190C84B274BB61F00957C69 /* Info.plist */,
 				C190C845274BB61F00957C69 /* Preview Content */,
+				C1DBE6182764BCF500EAB216 /* TriangleShape.swift */,
+				C1DBE61A2764BD7E00EAB216 /* TriangleLoader.swift */,
+				C1DBE61C2764BDBD00EAB216 /* ColorExtensions.swift */,
+				C1DBE61E2764E1C700EAB216 /* ArcShape.swift */,
+				C1DBE6202764E1DD00EAB216 /* ArcView.swift */,
+				C1DBE6222764E20400EAB216 /* CircleEmitter.swift */,
+				C1DBE6242764E22900EAB216 /* Circles.swift */,
+				C1DBE6262764E24600EAB216 /* WifiView.swift */,
+				C1DBE6282764E6C200EAB216 /* ExpandingView.swift */,
+				C1DBE62A2764E6F000EAB216 /* AddView.swift */,
 			);
 			path = StepByStep;
 			sourceTree = "<group>";
@@ -196,9 +226,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DBE62B2764E6F000EAB216 /* AddView.swift in Sources */,
+				C1DBE61B2764BD7E00EAB216 /* TriangleLoader.swift in Sources */,
+				C1DBE6272764E24600EAB216 /* WifiView.swift in Sources */,
+				C1DBE6212764E1DD00EAB216 /* ArcView.swift in Sources */,
+				C1DBE61F2764E1C700EAB216 /* ArcShape.swift in Sources */,
 				C190C83E274BB61E00957C69 /* AppDelegate.swift in Sources */,
+				C1DBE6192764BCF500EAB216 /* TriangleShape.swift in Sources */,
 				C190C840274BB61E00957C69 /* SceneDelegate.swift in Sources */,
 				C190C842274BB61E00957C69 /* ContentView.swift in Sources */,
+				C1DBE61D2764BDBD00EAB216 /* ColorExtensions.swift in Sources */,
+				C1DBE6232764E20400EAB216 /* CircleEmitter.swift in Sources */,
+				C1DBE6252764E22900EAB216 /* Circles.swift in Sources */,
+				C1DBE6292764E6C200EAB216 /* ExpandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

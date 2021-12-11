@@ -21,10 +21,7 @@ struct ContentView: View {
     @State private var isLoading = true
 
     var body: some View {
-        Button("Download") {
-            self.isLoading.toggle()
-            print("true")
-        }.buttonStyle(LongPressButton())
+        AddView()
     }
 }
 struct ContentView_Previews: PreviewProvider {
